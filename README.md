@@ -1,53 +1,53 @@
 <!-- markdownlint-disable MD024 -->
 
-# `ipm` - Integrated Package Manager
+# `ipm` - Integrated Package Manager 🚀
 
-## Table of Contents
+## Table of Contents 📑
 
-- [`ipm` - Integrated Package Manager](#ipm---integrated-package-manager)
-  - [Table of Contents](#table-of-contents)
-  - [About](#about)
-  - [Key Features](#key-features)
-  - [Installation](#installation)
-    - [Pre-built Binaries](#pre-built-binaries)
-    - [Building from Source](#building-from-source)
-      - [Clone the Repository](#clone-the-repository)
-      - [Make Build](#make-build)
-        - [PowerShell Script (Windows)](#powershell-script-windows)
-        - [Shell Script (Linux/macOS)](#shell-script-linuxmacos)
-  - [Usage](#usage)
-    - [Default Package Manager (auto-detected)](#default-package-manager-auto-detected)
-      - [Basic Commands](#basic-commands)
-        - [List Installed Packages](#list-installed-packages)
-        - [Search for a Package](#search-for-a-package)
-        - [Check Information about a Package](#check-information-about-a-package)
-        - [Install a Package](#install-a-package)
-        - [Update Index of the Package Manager](#update-index-of-the-package-manager)
-        - [Upgrade a Package](#upgrade-a-package)
-        - [Upgrade all Packages](#upgrade-all-packages)
-        - [Remove a package](#remove-a-package)
-      - [Example](#example)
-    - [Custom Package Manager](#custom-package-manager)
-      - [Basic Commands](#basic-commands-1)
-        - [List Installed Packages](#list-installed-packages-1)
-        - [Search for a Package](#search-for-a-package-1)
-        - [Check Information about a Package](#check-information-about-a-package-1)
-        - [Install a Package](#install-a-package-1)
-        - [Update Index of the Package Manager](#update-index-of-the-package-manager-1)
-        - [Upgrade a Package](#upgrade-a-package-1)
-        - [Upgrade all Packages](#upgrade-all-packages-1)
-        - [Remove a package](#remove-a-package-1)
-      - [Example](#example-1)
-  - [Configuration](#configuration)
-    - [Example Configuration](#example-configuration)
-  - [Contributing](#contributing)
-    - [How to Contribute](#how-to-contribute)
-    - [Code of Conduct](#code-of-conduct)
-  - [Acknowledgements](#acknowledgements)
-    - [Special Thanks](#special-thanks)
-  - [License](#license)
+- [`ipm` - Integrated Package Manager 🚀](#ipm---integrated-package-manager-)
+  - [Table of Contents 📑](#table-of-contents-)
+  - [About ℹ️](#about-ℹ️)
+  - [Key Features ✨](#key-features-)
+  - [Installation 🛠️](#installation-️)
+    - [Pre-built Binaries 📦](#pre-built-binaries-)
+    - [Building from Source 🏗️](#building-from-source-️)
+      - [Clone the Repository 🌀](#clone-the-repository-)
+      - [Make Build 🔨](#make-build-)
+        - [PowerShell Script (Windows) 💻](#powershell-script-windows-)
+        - [Shell Script (Linux/macOS) 🐧🍏](#shell-script-linuxmacos-)
+  - [Usage 📋](#usage-)
+    - [Default Package Manager (auto-detected) 🔍](#default-package-manager-auto-detected-)
+      - [Basic Commands 📝](#basic-commands-)
+        - [List Installed Packages 📜](#list-installed-packages-)
+        - [Search for a Package 🔎](#search-for-a-package-)
+        - [Check Information about a Package ℹ️](#check-information-about-a-package-ℹ️)
+        - [Install a Package 📥](#install-a-package-)
+        - [Update Index of the Package Manager 🔄](#update-index-of-the-package-manager-)
+        - [Upgrade a Package ⬆️](#upgrade-a-package-️)
+        - [Upgrade all Packages ⬆️⬆️](#upgrade-all-packages-️️)
+        - [Remove a package 🗑️](#remove-a-package-️)
+      - [Example 💡](#example-)
+    - [Custom Package Manager 🛠️](#custom-package-manager-️)
+      - [Basic Commands 📝](#basic-commands--1)
+        - [List Installed Packages 📜](#list-installed-packages--1)
+        - [Search for a Package 🔎](#search-for-a-package--1)
+        - [Check Information about a Package ℹ️](#check-information-about-a-package-ℹ️-1)
+        - [Install a Package 📥](#install-a-package--1)
+        - [Update Index of the Package Manager 🔄](#update-index-of-the-package-manager--1)
+        - [Upgrade a Package ⬆️](#upgrade-a-package-️-1)
+        - [Upgrade all Packages ⬆️⬆️](#upgrade-all-packages-️️-1)
+        - [Remove a package 🗑️](#remove-a-package-️-1)
+      - [Example 💡](#example--1)
+  - [Configuration ⚙️](#configuration-️)
+    - [Example Configuration 📄](#example-configuration-)
+  - [Contributing 🤝](#contributing-)
+    - [How to Contribute 🛠️](#how-to-contribute-️)
+    - [Code of Conduct 📜](#code-of-conduct-)
+  - [Acknowledgements 🙏](#acknowledgements-)
+    - [Special Thanks 🌟](#special-thanks-)
+  - [License 📄](#license-)
 
-## About
+## About ℹ️
 
 Integrated Package Manager (`ipm`) is a powerful, cross-platform tool designed to unify the command-line interface (CLI) commands for various package managers. It acts as a universal frontend, working on top of other package managers to provide a seamless and consistent experience for managing software packages across different operating systems.
 
@@ -90,7 +90,7 @@ Flags:
 Use "ipm [command] --help" for more information about a command.
 ```
 
-## Key Features
+## Key Features ✨
 
 - **Cross-Platform Compatibility**: Supports multiple operating systems including Windows, Linux, and macOS.
 - **Unified Interface**: Provides a single, consistent CLI interface for managing packages across different platforms.
@@ -98,13 +98,13 @@ Use "ipm [command] --help" for more information about a command.
 - **Customizable Configurations**: Allows users to define custom commands and configurations for different package managers.
 - **Extensible**: Easily extendable to support additional package managers and custom commands.
 
-## Installation
+## Installation 🛠️
 
-### Pre-built Binaries
+### Pre-built Binaries 📦
 
-Pre-built binaries for various platforms are available in the [releases](https://github.com/your-repo/ipm/releases) section. Download the appropriate binary for your platform and add it to your system's PATH.
+Pre-built binaries for various platforms are available in the [releases](https://github.com/imfsiddiqui/ipm/releases) section. Download the appropriate binary for your platform and add it to your system's PATH.
 
-1. **Download the binary**: Navigate to the [releases](https://github.com/your-repo/ipm/releases) page and download the binary for your operating system.
+1. **Download the binary**: Navigate to the [releases](https://github.com/imfsiddiqui/ipm/releases) page and download the binary for your operating system.
 2. **Move the binary to a directory**: Move the downloaded binary to a directory of your choice.
 3. **Add the binary to your PATH**: Add the directory containing the binary to your system's PATH. This allows you to run `ipm` from any terminal session.
 4. For example:
@@ -124,22 +124,22 @@ Pre-built binaries for various platforms are available in the [releases](https:/
   [System.Environment]::SetEnvironmentVariable("Path", $env:Path + ";path\to\ipm", [System.EnvironmentVariableTarget]::Machine)
   ```
 
-### Building from Source
+### Building from Source 🏗️
 
 To build `ipm` from source, you need to have [Go](https://golang.org/dl/) installed on your system.
 
-#### Clone the Repository
+#### Clone the Repository 🌀
 
 ```sh
 git clone https://github.com/your-repo/ipm.git
 cd ipm
 ```
 
-#### Make Build
+#### Make Build 🔨
 
 To build `ipm`, you can use the provided build scripts.
 
-##### PowerShell Script (Windows)
+##### PowerShell Script (Windows) 💻
 
 1. Open a PowerShell terminal.
 2. Run the build script:
@@ -148,7 +148,7 @@ To build `ipm`, you can use the provided build scripts.
   .\scripts\build\build.ps1
   ```
 
-##### Shell Script (Linux/macOS)
+##### Shell Script (Linux/macOS) 🐧🍏
 
 1. Open a terminal.
 2. Run the build script:
@@ -159,61 +159,61 @@ To build `ipm`, you can use the provided build scripts.
 
 These scripts will build the binaries for the multiple platforms and create archives (ZIP for Windows and TAR.GZ for other platforms) in the `dist/release` directory.
 
-## Usage
+## Usage 📋
 
-### Default Package Manager (auto-detected)
+### Default Package Manager (auto-detected) 🔍
 
-#### Basic Commands
+#### Basic Commands 📝
 
-##### List Installed Packages
+##### List Installed Packages 📜
 
 ```sh
 ipm list
 ```
 
-##### Search for a Package
+##### Search for a Package 🔎
 
 ```sh
 ipm search <package-name>
 ```
 
-##### Check Information about a Package
+##### Check Information about a Package ℹ️
 
 ```sh
 ipm info <package-name>
 ```
 
-##### Install a Package
+##### Install a Package 📥
 
 ```sh
 ipm install <package-name>
 ```
 
-##### Update Index of the Package Manager
+##### Update Index of the Package Manager 🔄
 
 ```sh
 ipm update
 ```
 
-##### Upgrade a Package
+##### Upgrade a Package ⬆️
 
 ```sh
 ipm upgrade <package-name>
 ```
 
-##### Upgrade all Packages
+##### Upgrade all Packages ⬆️⬆️
 
 ```sh
 ipm upgrade-all
 ```
 
-##### Remove a package
+##### Remove a package 🗑️
 
 ```sh
 ipm uninstall <package-name>
 ```
 
-#### Example
+#### Example 💡
 
 To install the `jq` package:
 
@@ -221,59 +221,59 @@ To install the `jq` package:
 ipm install jq
 ```
 
-### Custom Package Manager
+### Custom Package Manager 🛠️
 
-#### Basic Commands
+#### Basic Commands 📝
 
-##### List Installed Packages
+##### List Installed Packages 📜
 
 ```sh
 ipm <package-manager> list
 ```
 
-##### Search for a Package
+##### Search for a Package 🔎
 
 ```sh
 ipm <package-manager> search <package-name>
 ```
 
-##### Check Information about a Package
+##### Check Information about a Package ℹ️
 
 ```sh
 ipm <package-manager> info <package-name>
 ```
 
-##### Install a Package
+##### Install a Package 📥
 
 ```sh
 ipm <package-manager> install <package-name>
 ```
 
-##### Update Index of the Package Manager
+##### Update Index of the Package Manager 🔄
 
 ```sh
 ipm <package-manager> update
 ```
 
-##### Upgrade a Package
+##### Upgrade a Package ⬆️
 
 ```sh
 ipm <package-manager> upgrade <package-name>
 ```
 
-##### Upgrade all Packages
+##### Upgrade all Packages ⬆️⬆️
 
 ```sh
 ipm <package-manager> upgrade-all
 ```
 
-##### Remove a package
+##### Remove a package 🗑️
 
 ```sh
 ipm <package-manager> uninstall <package-name>
 ```
 
-#### Example
+#### Example 💡
 
 To install the `fast-json-stringify` package using `npm`:
 
@@ -281,11 +281,11 @@ To install the `fast-json-stringify` package using `npm`:
 ipm npm install fast-json-stringify
 ```
 
-## Configuration
+## Configuration ⚙️
 
 `ipm` uses a JSON configuration file to define custom commands and settings for different package managers. The configuration file is located in the config directory.
 
-### Example Configuration
+### Example Configuration 📄
 
 ```json
 {
@@ -303,11 +303,11 @@ ipm npm install fast-json-stringify
 }
 ```
 
-## Contributing
+## Contributing 🤝
 
 Contributions are welcome! If you have suggestions for improvements, please open an issue or submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
-### How to Contribute
+### How to Contribute 🛠️
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature-branch`).
@@ -316,15 +316,15 @@ Contributions are welcome! If you have suggestions for improvements, please open
 5. Push to the branch (`git push origin feature-branch`).
 6. Open a pull request.
 
-### Code of Conduct
+### Code of Conduct 📜
 
 This project adheres to the Contributor Covenant code of conduct. By participating, you are expected to uphold this code.
 
-## Acknowledgements
+## Acknowledgements 🙏
 
 I would like to extend my heartfelt thanks to all the developers and contributors whose work has made this project possible. Your dedication and contributions to the open-source community are invaluable, and I am grateful for the tools, libraries, and frameworks that you have created and maintained.
 
-### Special Thanks
+### Special Thanks 🌟
 
 I would like to specifically acknowledge the developers of the following tools, frameworks and dependencies which are used in this project:
 
@@ -340,6 +340,6 @@ I would like to specifically acknowledge the developers of the following tools, 
 
 Your hard work and commitment to excellence have made it possible for me to build `ipm` and provide a unified package management experience for developers across different platforms. Thank you for your contributions to the open-source ecosystem.
 
-## License
+## License 📄
 
 This project is licensed under the MIT License. See the LICENSE file for details.
