@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "commands": {
+    "info": "brew info {{.Package}}",
+    "install": "brew install {{.Package}}",
+    "list": "brew list",
+    "search": "brew search {{.Package}}",
+    "uninstall": "brew uninstall {{.Package}}",
+    "update": "brew update",
+    "upgrade": "brew upgrade {{.Package}}",
+    "upgrade-all": "brew upgrade"
+  }
+}

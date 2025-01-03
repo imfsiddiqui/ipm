@@ -1,0 +1,13 @@
+{
+  "enabled": false,
+  "commands": {
+    "info": "opkg info {{.Package}}",
+    "install": "opkg install {{.Package}}",
+    "list": "opkg list --installed",
+    "search": "opkg find {{.Package}}",
+    "uninstall": "opkg remove {{.Package}}",
+    "update": "opkg update",
+    "upgrade": "opkg upgrade {{.Package}}",
+    "upgrade-all": "opkg upgrade"
+  }
+}

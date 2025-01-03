@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "commands": {
+    "info": "winget show {{.Package}}",
+    "install": "winget install {{.Package}}",
+    "list": "winget list",
+    "search": "winget search {{.Package}}",
+    "uninstall": "winget uninstall {{.Package}}",
+    "update": null,
+    "upgrade": "winget upgrade {{.Package}}",
+    "upgrade-all": "winget upgrade --all"
+  }
+}

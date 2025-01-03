@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "commands": {
+    "info": "pip show {{.Package}}",
+    "install": "pip install {{.Package}}",
+    "list": "pip list",
+    "search": null,
+    "uninstall": "pip uninstall --yes {{.Package}}",
+    "update": null,
+    "upgrade": "pip install --upgrade {{.Package}}",
+    "upgrade-all": null
+  }
+}

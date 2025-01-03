@@ -1,0 +1,13 @@
+{
+  "enabled": false,
+  "commands": {
+    "info": "scoop info {{.Package}}",
+    "install": "scoop install {{.Package}}",
+    "list": "scoop list",
+    "search": "scoop search {{.Package}}",
+    "uninstall": "scoop uninstall {{.Package}}",
+    "update": "scoop update",
+    "upgrade": "scoop update {{.Package}}",
+    "upgrade-all": "scoop update *"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "enabled": false,
+  "commands": {
+    "info": "slackpkg info {{.Package}}",
+    "install": "slackpkg install {{.Package}}",
+    "list": "ls -1 /var/log/packages",
+    "search": "slackpkg search {{.Package}}",
+    "uninstall": "slackpkg remove {{.Package}}",
+    "update": "slackpkg update",
+    "upgrade": "slackpkg upgrade {{.Package}}",
+    "upgrade-all": "slackpkg upgrade-all"
+  }
+}

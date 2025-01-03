@@ -1,0 +1,13 @@
+{
+  "enabled": false,
+  "commands": {
+    "info": "pacman -Si {{.Package}}",
+    "install": "pacman -S {{.Package}}",
+    "list": "pacman -Q",
+    "search": "pacman -Ss {{.Package}}",
+    "uninstall": "pacman -Rs {{.Package}}",
+    "update": "pacman -Sy",
+    "upgrade": "pacman -S {{.Package}}",
+    "upgrade-all": "pacman -Syu"
+  }
+}

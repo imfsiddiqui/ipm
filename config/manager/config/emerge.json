@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "commands": {
+    "info": "emerge --info {{.Package}}",
+    "install": "emerge {{.Package}}",
+    "list": "qlist --installed",
+    "search": "emerge --search {{.Package}}",
+    "uninstall": "emerge --depclean {{.Package}}",
+    "update": "emerge --sync",
+    "upgrade": "emerge --update {{.Package}}",
+    "upgrade-all": "emerge -vuDN @world"
+  }
+}

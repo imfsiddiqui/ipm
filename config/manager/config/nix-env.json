@@ -1,0 +1,13 @@
+{
+  "enabled": false,
+  "commands": {
+    "info": "nix-env -qa --description {{.Package}}",
+    "install": "nix-env --install {{.Package}}",
+    "list": "nix-env --query --installed",
+    "search": "nix-env -qaP {{.Package}}",
+    "uninstall": "nix-env --uninstall {{.Package}}",
+    "update": "nix-channel --update",
+    "upgrade": "nix-env --upgrade {{.Package}}",
+    "upgrade-all": "nix-env --upgrade"
+  }
+}

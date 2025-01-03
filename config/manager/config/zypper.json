@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "commands": {
+    "info": "zypper info {{.Package}}",
+    "install": "zypper install -y {{.Package}}",
+    "list": "zypper search --installed-only",
+    "search": "zypper search {{.Package}}",
+    "uninstall": "zypper remove -y {{.Package}}",
+    "update": "zypper refresh",
+    "upgrade": "zypper update -y {{.Package}}",
+    "upgrade-all": "zypper update -y"
+  }
+}

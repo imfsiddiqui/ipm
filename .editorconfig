@@ -1,0 +1,134 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# Top-most EditorConfig file
+# This setting ensures that this is the root EditorConfig file and no other
+# EditorConfig files outside of this directory will be used.
+root = true
+
+# Default settings for all files
+# These settings apply to all files unless overridden by more specific settings.
+[*]
+# Set the character encoding to UTF-8.
+charset = utf-8
+# Use LF (Line Feed) as the line ending.
+end_of_line = lf
+# Ensure that files end with a newline.
+insert_final_newline = true
+# Remove any trailing whitespace characters.
+trim_trailing_whitespace = true
+# Use spaces for indentation.
+indent_style = space
+# Set the number of spaces per indentation level.
+indent_size = 4
+
+# .gitignore files
+# Specific settings for .gitignore files.
+[*.gitignore]
+# Set the character encoding to UTF-8.
+charset = utf-8
+# Use LF (Line Feed) as the line ending.
+end_of_line = lf
+# Ensure that files end with a newline.
+insert_final_newline = true
+# Remove any trailing whitespace characters.
+trim_trailing_whitespace = true
+# Use spaces for indentation.
+indent_style = space
+# Set the number of spaces per indentation level.
+indent_size = 4
+
+# Go files
+# Specific settings for Go files.
+[*.go]
+# Set the character encoding to UTF-8.
+charset = utf-8
+# Use LF (Line Feed) as the line ending.
+end_of_line = lf
+# Ensure that files end with a newline.
+insert_final_newline = true
+# Remove any trailing whitespace characters.
+trim_trailing_whitespace = true
+# Use tabs for indentation.
+indent_style = tab
+# Set the number of spaces per indentation level (tab width).
+indent_size = 4
+
+# JSON files
+# Specific settings for JSON files.
+[*.json]
+# Set the character encoding to UTF-8.
+charset = utf-8
+# Use LF (Line Feed) as the line ending.
+end_of_line = lf
+# Ensure that files end with a newline.
+insert_final_newline = true
+# Do not remove trailing whitespace characters.
+trim_trailing_whitespace = false
+# Use spaces for indentation.
+indent_style = space
+# Set the number of spaces per indentation level.
+indent_size = 2
+
+# Markdown files
+# Specific settings for Markdown files.
+[*.md]
+# Set the character encoding to UTF-8.
+charset = utf-8
+# Use LF (Line Feed) as the line ending.
+end_of_line = lf
+# Ensure that files end with a newline.
+insert_final_newline = true
+# Do not remove trailing whitespace characters.
+trim_trailing_whitespace = false
+# Use spaces for indentation.
+indent_style = space
+# Set the number of spaces per indentation level.
+indent_size = 2
+
+# Go module files
+# Specific settings for Go module files.
+[*.mod]
+# Set the character encoding to UTF-8.
+charset = utf-8
+# Use LF (Line Feed) as the line ending.
+end_of_line = lf
+# Ensure that files end with a newline.
+insert_final_newline = true
+# Remove any trailing whitespace characters.
+trim_trailing_whitespace = true
+# Use tabs for indentation.
+indent_style = tab
+# Set the number of spaces per indentation level (tab width).
+indent_size = 4
+
+# PowerShell scripts
+# Specific settings for PowerShell scripts.
+[*.ps1]
+# Set the character encoding to UTF-8.
+charset = utf-8
+# Use LF (Line Feed) as the line ending.
+end_of_line = lf
+# Ensure that files end with a newline.
+insert_final_newline = true
+# Remove any trailing whitespace characters.
+trim_trailing_whitespace = true
+# Use spaces for indentation.
+indent_style = space
+# Set the number of spaces per indentation level.
+indent_size = 4
+
+# Shell scripts
+# Specific settings for Shell scripts.
+[*.sh]
+# Set the character encoding to UTF-8.
+charset = utf-8
+# Use LF (Line Feed) as the line ending.
+end_of_line = lf
+# Ensure that files end with a newline.
+insert_final_newline = true
+# Remove any trailing whitespace characters.
+trim_trailing_whitespace = true
+# Use spaces for indentation.
+indent_style = space
+# Set the number of spaces per indentation level.
+indent_size = 2

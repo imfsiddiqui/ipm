@@ -1,0 +1,13 @@
+{
+  "enabled": false,
+  "commands": {
+    "info": "nala show {{.Package}}",
+    "install": "nala install {{.Package}}",
+    "list": "nala list --installed",
+    "search": "nala search {{.Package}}",
+    "uninstall": "nala remove {{.Package}}",
+    "update": "nala update",
+    "upgrade": "nala install {{.Package}}",
+    "upgrade-all": "nala upgrade"
+  }
+}

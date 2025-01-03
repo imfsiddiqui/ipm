@@ -1,0 +1,13 @@
+{
+  "enabled": false,
+  "commands": {
+    "info": "xbps-query -RS {{.Package}}",
+    "install": "xbps-install {{.Package}}",
+    "list": "xbps-query --list-pkgs",
+    "search": "xbps-query -Rs {{.Package}}",
+    "uninstall": "xbps-remove {{.Package}}",
+    "update": "xbps-install --sync",
+    "upgrade": "xbps-install --update {{.Package}}",
+    "upgrade-all": "xbps-install --update"
+  }
+}

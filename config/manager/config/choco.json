@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "commands": {
+    "info": "choco info {{.Package}}",
+    "install": "choco install {{.Package}}",
+    "list": "choco list",
+    "search": "choco search {{.Package}}",
+    "uninstall": "choco uninstall {{.Package}}",
+    "update": null,
+    "upgrade": "choco upgrade {{.Package}}",
+    "upgrade-all": "choco upgrade all"
+  }
+}

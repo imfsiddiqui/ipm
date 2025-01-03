@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Package Manager Configuration",
+  "type": "object",
+  "properties": {
+    "enabled": {
+      "type": "boolean"
+    },
+    "commands": {
+      "type": "object",
+      "properties": {
+        "update": {
+          "type": ["string", "null"]
+        },
+        "search": {
+          "type": ["string", "null"]
+        },
+        "info": {
+          "type": ["string", "null"]
+        },
+        "install": {
+          "type": ["string", "null"]
+        },
+        "uninstall": {
+          "type": ["string", "null"]
+        },
+        "upgrade": {
+          "type": ["string", "null"]
+        },
+        "upgrade-all": {
+          "type": ["string", "null"]
+        },
+        "list": {
+          "type": ["string", "null"]
+        }
+      },
+      "required": [
+        "update",
+        "search",
+        "info",
+        "install",
+        "uninstall",
+        "upgrade",
+        "upgrade-all",
+        "list"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": ["enabled", "commands"],
+  "additionalProperties": false
+}

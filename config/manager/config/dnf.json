@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "commands": {
+    "info": "dnf info {{.Package}}",
+    "install": "dnf install -y {{.Package}}",
+    "list": "dnf list --installed",
+    "search": "dnf search {{.Package}}",
+    "uninstall": "dnf remove -y {{.Package}}",
+    "update": "dnf check-update",
+    "upgrade": "dnf upgrade -y {{.Package}}",
+    "upgrade-all": "dnf update -y"
+  }
+}

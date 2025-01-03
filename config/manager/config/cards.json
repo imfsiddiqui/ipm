@@ -1,0 +1,13 @@
+{
+  "enabled": false,
+  "commands": {
+    "info": "cards info {{.Package}}",
+    "install": "cards install {{.Package}}",
+    "list": "cards list",
+    "search": "cards search {{.Package}}",
+    "uninstall": "cards remove {{.Package}}",
+    "update": "cards sync",
+    "upgrade": "cards install --upgrade {{.Package}}",
+    "upgrade-all": "cards upgrade"
+  }
+}

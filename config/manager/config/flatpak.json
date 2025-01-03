@@ -1,0 +1,13 @@
+{
+  "enabled": false,
+  "commands": {
+    "info": "flatpak info {{.Package}}",
+    "install": "flatpak install {{.Package}}",
+    "list": "flatpak list",
+    "search": "flatpak search {{.Package}}",
+    "uninstall": "flatpak uninstall {{.Package}}",
+    "update": null,
+    "upgrade": "flatpak update {{.Package}}",
+    "upgrade-all": "flatpak update"
+  }
+}

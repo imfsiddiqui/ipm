@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "commands": {
+    "info": "eopkg info {{.Package}}",
+    "install": "eopkg install -y {{.Package}}",
+    "list": "eopkg list-installed",
+    "search": "eopkg search {{.Package}}",
+    "uninstall": "eopkg remove -y {{.Package}}",
+    "update": "eopkg update-repo",
+    "upgrade": "eopkg upgrade -y {{.Package}}",
+    "upgrade-all": "eopkg upgrade -y"
+  }
+}

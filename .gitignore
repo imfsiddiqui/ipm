@@ -1,0 +1,5 @@
+# Ignore the dist directory and its contents
+# The dist directory is typically used to store built binaries and other
+# distribution files. These files are generated during the build process
+# and should not be included in version control.
+dist/

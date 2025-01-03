@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "commands": {
+    "info": "yum info {{.Package}}",
+    "install": "yum install -y {{.Package}}",
+    "list": "yum list --installed",
+    "search": "yum search {{.Package}}",
+    "uninstall": "yum remove -y {{.Package}}",
+    "update": "yum check-update",
+    "upgrade": "yum upgrade -y {{.Package}}",
+    "upgrade-all": "yum update -y"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "commands": {
+    "info": "apt-cache show {{.Package}}",
+    "install": "apt-get install -y {{.Package}}",
+    "list": "dpkg --list",
+    "search": "apt-cache search {{.Package}}",
+    "uninstall": "apt-get remove -y {{.Package}}",
+    "update": "apt-get update",
+    "upgrade": "apt-get install --only-upgrade {{.Package}}",
+    "upgrade-all": "apt-get upgrade"
+  }
+}

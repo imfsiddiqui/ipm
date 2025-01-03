@@ -1,0 +1,13 @@
+{
+  "enabled": false,
+  "commands": {
+    "info": "snap info {{.Package}}",
+    "install": "snap install --classic {{.Package}}",
+    "list": "snap list",
+    "search": "snap find {{.Package}}",
+    "uninstall": "snap remove {{.Package}}",
+    "update": null,
+    "upgrade": "snap refresh {{.Package}}",
+    "upgrade-all": "snap refresh"
+  }
+}

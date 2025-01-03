@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "commands": {
+    "info": "npm info {{.Package}}",
+    "install": "npm install -y -g {{.Package}}",
+    "list": "npm list -g --depth=0",
+    "search": "npm search {{.Package}}",
+    "uninstall": "npm uninstall -y -g {{.Package}}",
+    "update": null,
+    "upgrade": "npm upgrade -y -g {{.Package}}",
+    "upgrade-all": "npm update -g"
+  }
+}

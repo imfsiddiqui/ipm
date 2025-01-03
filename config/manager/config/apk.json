@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "commands": {
+    "info": "apk info {{.Package}}",
+    "install": "apk add {{.Package}}",
+    "list": "apk list --installed",
+    "search": "apk search {{.Package}}",
+    "uninstall": "apk del {{.Package}}",
+    "update": "apk update",
+    "upgrade": "apk upgrade {{.Package}}",
+    "upgrade-all": "apk upgrade"
+  }
+}

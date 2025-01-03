@@ -1,0 +1,13 @@
+{
+  "enabled": false,
+  "commands": {
+    "info": "guix show {{.Package}}",
+    "install": "guix install {{.Package}}",
+    "list": "guix package --list-installed",
+    "search": "guix search {{.Package}}",
+    "uninstall": "guix remove {{.Package}}",
+    "update": "guix refresh",
+    "upgrade": "guix upgrade {{.Package}}",
+    "upgrade-all": "guix upgrade"
+  }
+}
