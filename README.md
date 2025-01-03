@@ -342,4 +342,4 @@ Your hard work and commitment to excellence have made it possible for me to buil
 
 ## License 📄
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the GPL-3.0 license. See the [LICENSE](https://github.com/imfsiddiqui/ipm/blob/main/LICENSE) file for details.
