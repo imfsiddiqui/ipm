@@ -4,13 +4,14 @@
 # This array contains a list of target platforms for which the binary will be built.
 # Each element is a tuple with two values:
 #   - GOOS: The target operating system (e.g., "windows", "linux", "darwin")
-#   - GOARCH: The target architecture (e.g., "386", "amd64")
+#   - GOARCH: The target architecture (e.g., "386", "amd64", "arm64")
 TARGETS=(
     "windows 386"
     "windows amd64"
     "linux 386"
     "linux amd64"
     "darwin amd64"
+    "darwin arm64"
 )
 
 # Function to build the binary for a specified OS and architecture

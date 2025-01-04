@@ -2,13 +2,14 @@
 # This array contains a list of target platforms for which the binary will be built.
 # Each element is a hashtable with two keys:
 #   - GOOS: The target operating system (e.g., "windows", "linux", "darwin")
-#   - GOARCH: The target architecture (e.g., "386", "amd64")
+#   - GOARCH: The target architecture (e.g., "386", "amd64", "arm64")
 $targets = @(
     @{ GOOS = "windows"; GOARCH = "386" },
     @{ GOOS = "windows"; GOARCH = "amd64" },
     @{ GOOS = "linux"; GOARCH = "386" },
     @{ GOOS = "linux"; GOARCH = "amd64" },
-    @{ GOOS = "darwin"; GOARCH = "amd64" }
+    @{ GOOS = "darwin"; GOARCH = "amd64" },
+    @{ GOOS = "darwin"; GOARCH = "arm64" }
 )
 
 # Function to build the binary for a specified OS and architecture
@@ -21,17 +22,17 @@ function Invoke-BinaryBuild {
     )
 
     Write-Host "Building for $GOOS/$GOARCH..."
-    
+
     # Set environment variables for cross-compilation
     $env:GOOS = $GOOS
     $env:GOARCH = $GOARCH
-    
+
     # Define the binary name, adding .exe extension for Windows
     $binaryName = "ipm"
     if ($GOOS -eq "windows") {
         $binaryName = "$binaryName.exe"
     }
-    
+
     # Build the binary using the Go compiler
     go build -o "$outputDir/$binaryName" $mainPackage
     if ($LASTEXITCODE -ne 0) {
