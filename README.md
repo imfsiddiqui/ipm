@@ -2,19 +2,32 @@
 
 # `ipm` - Integrated Package Manager 🚀
 
+- **Website:** <https://imfsiddiqui.github.io/ipm/>
+- **Source Code:** <https://github.com/imfsiddiqui/ipm>
+- **Releases:** <https://github.com/imfsiddiqui/ipm/releases>
+
 ## Table of Contents 📑
 
 - [`ipm` - Integrated Package Manager 🚀](#ipm---integrated-package-manager-)
   - [Table of Contents 📑](#table-of-contents-)
   - [About ℹ️](#about-ℹ️)
   - [Key Features ✨](#key-features-)
+  - [Supported Package Managers 📦](#supported-package-managers-)
   - [Installation 🛠️](#installation-️)
     - [Pre-built Binaries 📦](#pre-built-binaries-)
+      - [Download the Binary ⬇️](#download-the-binary-️)
+      - [Move the Binary to a Directory 🚂](#move-the-binary-to-a-directory-)
+      - [Add the Binary to PATH 🫵](#add-the-binary-to-path-)
+        - [Unix-like systems (Linux/macOS) 🐧🍏](#unix-like-systems-linuxmacos-)
+        - [Windows 💻](#windows-)
     - [Building from Source 🏗️](#building-from-source-️)
       - [Clone the Repository 🌀](#clone-the-repository-)
       - [Make Build 🔨](#make-build-)
-        - [PowerShell Script (Windows) 💻](#powershell-script-windows-)
         - [Shell Script (Linux/macOS) 🐧🍏](#shell-script-linuxmacos-)
+        - [PowerShell Script (Windows) 💻](#powershell-script-windows-)
+    - [Dockerfiles 🐳](#dockerfiles-)
+      - [Building Docker Images 🏗️](#building-docker-images-️)
+      - [Running Docker Container 🚀](#running-docker-container-)
   - [Usage 📋](#usage-)
     - [Default Package Manager (auto-detected) 🔍](#default-package-manager-auto-detected-)
       - [Basic Commands 📝](#basic-commands-)
@@ -98,31 +111,67 @@ Use "ipm [command] --help" for more information about a command.
 - **Customizable Configurations**: Allows users to define custom commands and configurations for different package managers.
 - **Extensible**: Easily extendable to support additional package managers and custom commands.
 
+## Supported Package Managers 📦
+
+| **Package Manager** | **Enabled (default)** | **Disabled (default)** |
+| :-----------------: | :-------------------: | :--------------------: |
+|         apk         |           ✅           |           ❌            |
+|         apt         |           ✅           |           ❌            |
+|        brew         |           ✅           |           ❌            |
+|        cards        |           ❌           |           ✅            |
+|        choco        |           ✅           |           ❌            |
+|         dnf         |           ✅           |           ❌            |
+|       emerge        |           ✅           |           ❌            |
+|        eopkg        |           ✅           |           ❌            |
+|       flatpak       |           ❌           |           ✅            |
+|        guix         |           ❌           |           ✅            |
+|        nala         |           ❌           |           ✅            |
+|       nix-env       |           ❌           |           ✅            |
+|         npm         |           ✅           |           ❌            |
+|        opkg         |           ❌           |           ✅            |
+|       pacman        |           ❌           |           ✅            |
+|         pip         |           ✅           |           ❌            |
+|        pip3         |           ✅           |           ❌            |
+|        scoop        |           ❌           |           ✅            |
+|      slackpkg       |           ❌           |           ✅            |
+|        snap         |           ❌           |           ✅            |
+|       winget        |           ✅           |           ❌            |
+|        xbps         |           ❌           |           ✅            |
+|         yum         |           ✅           |           ❌            |
+|       zypper        |           ✅           |           ❌            |
+
 ## Installation 🛠️
 
 ### Pre-built Binaries 📦
 
 Pre-built binaries for various platforms are available in the [releases](https://github.com/imfsiddiqui/ipm/releases) section. Download the appropriate binary for your platform and add it to your system's PATH.
 
-1. **Download the binary**: Navigate to the [releases](https://github.com/imfsiddiqui/ipm/releases) page and download the binary for your operating system.
-2. **Move the binary to a directory**: Move the downloaded binary to a directory of your choice.
-3. **Add the binary to your PATH**: Add the directory containing the binary to your system's PATH. This allows you to run `ipm` from any terminal session.
-4. For example:
+#### Download the Binary ⬇️
 
-  On Unix-like systems (Linux/macOS):
+Navigate to the [releases](https://github.com/imfsiddiqui/ipm/releases) page and download the binary for your operating system.
 
-  ```sh
-  # Add the directory to your PATH
-  echo 'export PATH=$PATH:/path/to/ipm' >> ~/.bashrc
-  source ~/.bashrc
-  ```
+#### Move the Binary to a Directory 🚂
 
-  On Windows:
+Move the downloaded binary to a directory of your choice.
 
-  ```powershell
-  # Add the directory to your PATH
-  [System.Environment]::SetEnvironmentVariable("Path", $env:Path + ";path\to\ipm", [System.EnvironmentVariableTarget]::Machine)
-  ```
+#### Add the Binary to PATH 🫵
+
+Add the directory containing the binary to your system's PATH. This allows you to run `ipm` from any terminal session.
+
+##### Unix-like systems (Linux/macOS) 🐧🍏
+
+```sh
+# Add the directory to your PATH
+echo 'export PATH=$PATH:/path/to/ipm' >> ~/.bashrc
+source ~/.bashrc
+```
+
+##### Windows 💻
+
+```powershell
+# Add the directory to your PATH
+[System.Environment]::SetEnvironmentVariable("Path", $env:Path + ";path\to\ipm", [System.EnvironmentVariableTarget]::Machine)
+```
 
 ### Building from Source 🏗️
 
@@ -139,25 +188,37 @@ cd ipm
 
 To build `ipm`, you can use the provided build scripts.
 
-##### PowerShell Script (Windows) 💻
-
-1. Open a PowerShell terminal.
-2. Run the build script:
-
-  ```powershell
-  .\scripts\build\build.ps1
-  ```
-
 ##### Shell Script (Linux/macOS) 🐧🍏
 
-1. Open a terminal.
-2. Run the build script:
+- Open a terminal.
+- Run the build script: `./scripts/build/build.sh`
 
-  ```sh
-  ./scripts/build/build.sh
-  ```
+##### PowerShell Script (Windows) 💻
+
+- Open a PowerShell terminal.
+- Run the build script: `.\scripts\build\build.ps1`.
 
 These scripts will build the binaries for the multiple platforms and create archives (ZIP for Windows and TAR.GZ for other platforms) in the `dist/release` directory.
+
+### Dockerfiles 🐳
+
+Dockerfiles are provided to build Docker images for `ipm`. These Dockerfiles are located in the `dockerfiles` directory.
+
+#### Building Docker Images 🏗️
+
+To build a Docker image for `ipm`, run the following command from project root:
+
+```sh
+docker build -t ipm-<package-manager-name>:latest -f dockerfiles/<package-manager-name>/Dockerfile .
+```
+
+#### Running Docker Container 🚀
+
+To run `ipm` Docker container:
+
+```sh
+docker run --rm -it ipm-<package-manager-name>:latest /bin/sh
+```
 
 ## Usage 📋
 
@@ -309,12 +370,12 @@ Contributions are welcome! If you have suggestions for improvements, please open
 
 ### How to Contribute 🛠️
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add new feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Open a pull request.
+- Fork the repository.
+- Create a new branch (`git checkout -b feature-branch`).
+- Make your changes.
+- Commit your changes (`git commit -am 'Add new feature'`).
+- Push to the branch (`git push origin feature-branch`).
+- Open a pull request.
 
 ### Code of Conduct 📜
 
