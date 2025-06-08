@@ -18,13 +18,15 @@
       - [⬇️ Download the Binary](#️-download-the-binary)
       - [🚂 Move the Binary to a Directory](#-move-the-binary-to-a-directory)
       - [🫵 Add the Binary to PATH](#-add-the-binary-to-path)
-        - [🐧🍏 Unix-like systems (Linux/macOS)](#-unix-like-systems-linuxmacos)
+        - [🐧 Linux](#-linux)
+        - [🍏 macOS](#-macos)
         - [🪟 Windows](#-windows)
     - [🏗️ Building from Source](#️-building-from-source)
       - [🌀 Clone the Repository](#-clone-the-repository)
       - [🔨 Make Build](#-make-build)
-        - [🐧🍏 Shell Script (Linux/macOS)](#-shell-script-linuxmacos)
-        - [🪟 PowerShell Script (Windows)](#-powershell-script-windows)
+        - [🐧 Linux (Shell Script)](#-linux-shell-script)
+        - [🍏 macOS (Shell Script)](#-macos-shell-script)
+        - [🪟 Windows (PowerShell Script)](#-windows-powershell-script)
     - [🐳 Dockerfiles](#-dockerfiles)
       - [🏗️ Building Docker Images](#️-building-docker-images)
       - [🚀 Running Docker Container](#-running-docker-container)
@@ -158,7 +160,15 @@ Move the downloaded binary to a directory of your choice.
 
 Add the directory containing the binary to your system's PATH. This allows you to run `ipm` from any terminal session.
 
-##### 🐧🍏 Unix-like systems (Linux/macOS)
+##### 🐧 Linux
+
+```sh
+# Add the directory to your PATH
+echo 'export PATH=$PATH:/path/to/ipm' >> ~/.bashrc
+source ~/.bashrc
+```
+
+##### 🍏 macOS
 
 ```sh
 # Add the directory to your PATH
@@ -188,12 +198,17 @@ cd ipm
 
 To build `ipm`, you can use the provided build scripts.
 
-##### 🐧🍏 Shell Script (Linux/macOS)
+##### 🐧 Linux (Shell Script)
 
 - Open a terminal.
 - Run the build script: `./scripts/build/build.sh`
 
-##### 🪟 PowerShell Script (Windows)
+##### 🍏 macOS (Shell Script)
+
+- Open a terminal.
+- Run the build script: `./scripts/build/build.sh`
+
+##### 🪟 Windows (PowerShell Script)
 
 - Open a PowerShell terminal.
 - Run the build script: `.\scripts\build\build.ps1`.
