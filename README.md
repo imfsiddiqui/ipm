@@ -8,6 +8,8 @@
 
 # 📦 `ipm` - Integrated Package Manager
 
+A cross-platform tool that unifies CLI for various package managers, simplifies installation, updates, and removal of packages by standardizing commands.
+
 ## 📚 Table of Contents
 
 - [📦 `ipm` - Integrated Package Manager](#-ipm---integrated-package-manager)
