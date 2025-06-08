@@ -62,14 +62,14 @@
 
 ## About ℹ️
 
-Integrated Package Manager (`ipm`) is a powerful, cross-platform tool designed to unify the command-line interface (CLI) commands for various package managers. It acts as a universal frontend, working on top of other package managers to provide a seamless and consistent experience for managing software packages across different operating systems.
+`ipm` - Integrated Package Manager is a powerful, cross-platform tool designed to unify the command-line interface (CLI) commands for various package managers. It acts as a universal frontend, working on top of other package managers to provide a seamless and consistent experience for managing software packages across different operating systems.
 
 In today's diverse development environments, developers, software engineers, and system engineers often face the challenge of dealing with multiple package managers, each with its own set of commands and interfaces. This can lead to inefficiencies, errors, and a steep learning curve, especially when switching between different platforms.
 
 `ipm` aims to solve these issues by offering a single, unified CLI that abstracts away the complexities of individual package managers. Whether you're working on Windows, Linux, or macOS, `ipm` provides a consistent and intuitive interface for installing, updating, and removing software packages. By standardizing package management commands, `ipm` simplifies the workflow, reduces the potential for errors, and enhances productivity.
 
 ```txt
-$ ipm 
+$ ipm
 Usage:
   ipm [command]
 
@@ -115,30 +115,30 @@ Use "ipm [command] --help" for more information about a command.
 
 | **Package Manager** | **Enabled (default)** | **Disabled (default)** |
 | :-----------------: | :-------------------: | :--------------------: |
-|         apk         |           ✅           |           ❌            |
-|         apt         |           ✅           |           ❌            |
-|        brew         |           ✅           |           ❌            |
-|        cards        |           ❌           |           ✅            |
-|        choco        |           ✅           |           ❌            |
-|         dnf         |           ✅           |           ❌            |
-|       emerge        |           ✅           |           ❌            |
-|        eopkg        |           ✅           |           ❌            |
-|       flatpak       |           ❌           |           ✅            |
-|        guix         |           ❌           |           ✅            |
-|        nala         |           ❌           |           ✅            |
-|       nix-env       |           ❌           |           ✅            |
-|         npm         |           ✅           |           ❌            |
-|        opkg         |           ❌           |           ✅            |
-|       pacman        |           ❌           |           ✅            |
-|         pip         |           ✅           |           ❌            |
-|        pip3         |           ✅           |           ❌            |
-|        scoop        |           ❌           |           ✅            |
-|      slackpkg       |           ❌           |           ✅            |
-|        snap         |           ❌           |           ✅            |
-|       winget        |           ✅           |           ❌            |
-|        xbps         |           ❌           |           ✅            |
-|         yum         |           ✅           |           ❌            |
-|       zypper        |           ✅           |           ❌            |
+|         apk         |          ✅           |           ❌           |
+|         apt         |          ✅           |           ❌           |
+|        brew         |          ✅           |           ❌           |
+|        cards        |          ❌           |           ✅           |
+|        choco        |          ✅           |           ❌           |
+|         dnf         |          ✅           |           ❌           |
+|       emerge        |          ✅           |           ❌           |
+|        eopkg        |          ✅           |           ❌           |
+|       flatpak       |          ❌           |           ✅           |
+|        guix         |          ❌           |           ✅           |
+|        nala         |          ❌           |           ✅           |
+|       nix-env       |          ❌           |           ✅           |
+|         npm         |          ✅           |           ❌           |
+|        opkg         |          ❌           |           ✅           |
+|       pacman        |          ❌           |           ✅           |
+|         pip         |          ✅           |           ❌           |
+|        pip3         |          ✅           |           ❌           |
+|        scoop        |          ❌           |           ✅           |
+|      slackpkg       |          ❌           |           ✅           |
+|        snap         |          ❌           |           ✅           |
+|       winget        |          ✅           |           ❌           |
+|        xbps         |          ❌           |           ✅           |
+|         yum         |          ✅           |           ❌           |
+|       zypper        |          ✅           |           ❌           |
 
 ## Installation 🛠️
 
