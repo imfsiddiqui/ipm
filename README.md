@@ -162,7 +162,7 @@ Add the directory containing the binary to your system's PATH. This allows you t
 
 ##### 🐧 Linux
 
-```sh
+```shell
 # Add the directory to your PATH
 echo 'export PATH=$PATH:/path/to/ipm' >> ~/.bashrc
 source ~/.bashrc
@@ -170,7 +170,7 @@ source ~/.bashrc
 
 ##### 🍏 macOS
 
-```sh
+```shell
 # Add the directory to your PATH
 echo 'export PATH=$PATH:/path/to/ipm' >> ~/.bashrc
 source ~/.bashrc
@@ -189,7 +189,7 @@ To build `ipm` from source, you need to have [Go](https://golang.org/dl/) instal
 
 #### 🌀 Clone the Repository
 
-```sh
+```shell
 git clone https://github.com/your-repo/ipm.git
 cd ipm
 ```
@@ -223,7 +223,7 @@ Dockerfiles are provided to build Docker images for `ipm`. These Dockerfiles are
 
 To build a Docker image for `ipm`, run the following command from project root:
 
-```sh
+```shell
 docker build -t ipm-<package-manager-name>:latest -f dockerfiles/<package-manager-name>/Dockerfile .
 ```
 
@@ -231,7 +231,7 @@ docker build -t ipm-<package-manager-name>:latest -f dockerfiles/<package-manage
 
 To run `ipm` Docker container:
 
-```sh
+```shell
 docker run --rm -it ipm-<package-manager-name>:latest /bin/sh
 ```
 
@@ -243,49 +243,49 @@ docker run --rm -it ipm-<package-manager-name>:latest /bin/sh
 
 ##### 📃 List Installed Packages
 
-```sh
+```shell
 ipm list
 ```
 
 ##### 🔎 Search for a Package
 
-```sh
+```shell
 ipm search <package-name>
 ```
 
 ##### 📖 Check Information about a Package
 
-```sh
+```shell
 ipm info <package-name>
 ```
 
 ##### 📥 Install a Package
 
-```sh
+```shell
 ipm install <package-name>
 ```
 
 ##### 🔄 Update Index of the Package Manager
 
-```sh
+```shell
 ipm update
 ```
 
 ##### ⬆️ Upgrade a Package
 
-```sh
+```shell
 ipm upgrade <package-name>
 ```
 
 ##### ⬆️ Upgrade all Packages
 
-```sh
+```shell
 ipm upgrade-all
 ```
 
 ##### 🗑️ Remove a package
 
-```sh
+```shell
 ipm uninstall <package-name>
 ```
 
@@ -293,7 +293,7 @@ ipm uninstall <package-name>
 
 To install the `jq` package:
 
-```sh
+```shell
 ipm install jq
 ```
 
@@ -303,49 +303,49 @@ ipm install jq
 
 ##### 📃 List Installed Packages
 
-```sh
+```shell
 ipm <package-manager> list
 ```
 
 ##### 🔎 Search for a Package
 
-```sh
+```shell
 ipm <package-manager> search <package-name>
 ```
 
 ##### 📖 Check Information about a Package
 
-```sh
+```shell
 ipm <package-manager> info <package-name>
 ```
 
 ##### 📥 Install a Package
 
-```sh
+```shell
 ipm <package-manager> install <package-name>
 ```
 
 ##### 🔄 Update Index of the Package Manager
 
-```sh
+```shell
 ipm <package-manager> update
 ```
 
 ##### ⬆️ Upgrade a Package
 
-```sh
+```shell
 ipm <package-manager> upgrade <package-name>
 ```
 
 ##### ⬆️ Upgrade all Packages
 
-```sh
+```shell
 ipm <package-manager> upgrade-all
 ```
 
 ##### 🗑️ Remove a package
 
-```sh
+```shell
 ipm <package-manager> uninstall <package-name>
 ```
 
@@ -353,7 +353,7 @@ ipm <package-manager> uninstall <package-name>
 
 To install the `fast-json-stringify` package using `npm`:
 
-```sh
+```shell
 ipm npm install fast-json-stringify
 ```
 
