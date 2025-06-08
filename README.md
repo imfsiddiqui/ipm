@@ -1,10 +1,12 @@
-<!-- markdownlint-disable MD024 -->
+<!-- markdownlint-disable MD024 MD033 MD041 -->
+
+<div align=center>
+
+🌍 **[Web Page](https://imfsiddiqui.github.io/ipm/)** | 💻 **[Source Code](https://github.com/imfsiddiqui/ipm)** | 🚀 **[Releases](https://github.com/imfsiddiqui/ipm/releases)**
+
+</div>
 
 # 📦 `ipm` - Integrated Package Manager
-
-- **Website:** <https://imfsiddiqui.github.io/ipm/>
-- **Source Code:** <https://github.com/imfsiddiqui/ipm>
-- **Releases:** <https://github.com/imfsiddiqui/ipm/releases>
 
 ## 📚 Table of Contents
 
