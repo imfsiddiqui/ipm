@@ -1,5 +1,64 @@
-# Ignore the dist directory and its contents
-# The dist directory is typically used to store built binaries and other
-# distribution files. These files are generated during the build process
-# and should not be included in version control.
+# Build and distribution
+*.egg-info/
+bin/
+build/
 dist/
+out/
+
+# Debug and runtime
+*.app
+*.dll
+*.exe
+*.out
+*.so
+
+# Editor
+*.njsproj
+*.ntvs*
+*.sln
+*.suo
+*.sw
+*.swo
+*.swp
+*~
+
+# Environment
+.env
+.env.development
+.env.local
+.env.production
+.env.test
+
+# Linux
+*~
+
+# Log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mac
+.AppleDouble
+.DS_Store
+.LSOverride
+
+# Node.js dependencies
+node_modules/
+
+# Python bytecode and virtual environments
+__pycache__/
+.venv/
+*.py[cod]
+*.pyd
+*.pyo
+env/
+venv/
+
+# Windows
+$RECYCLE.BIN/
+Desktop.ini
+Thumbs.db
+
+# Others
+inputs.csv
