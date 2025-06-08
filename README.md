@@ -12,6 +12,14 @@
 
 A cross-platform tool that unifies CLI for various package managers, simplifies installation, updates, and removal of packages by standardizing commands.
 
+<div align="center">
+  <img
+    src="https://raw.githubusercontent.com/imfsiddiqui/ipm/refs/heads/main/.github/pages/assets/images/ipm.svg"
+    style="border-radius: 10px"
+    alt="ipm"
+  />
+</div>
+
 ## 📚 Table of Contents
 
 - [📦 `ipm` - Integrated Package Manager](#-ipm---integrated-package-manager)
