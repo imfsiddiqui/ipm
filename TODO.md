@@ -40,7 +40,7 @@ This file contains a list of tasks, improvements, and ideas for this project.
 
 ### ✨ Features
 
--
+- 🟡⏳ Add a CI/CD pipeline to automate releases whenever a new version tag is created, including builds for all supported platforms.
 
 ### 🐛 Bugs
 
