@@ -11,8 +11,8 @@ This file contains a list of tasks, improvements, and ideas for this project.
 - [📝 TODO](#-todo)
   - [📚 Table of Contents](#-table-of-contents)
   - [🪧 Legend](#-legend)
-    - [📊 State](#-state)
     - [🚨 Priority](#-priority)
+    - [📊 State](#-state)
   - [📝 List](#-list)
     - [✨ Features](#-features)
     - [🐛 Bugs](#-bugs)
@@ -22,17 +22,17 @@ This file contains a list of tasks, improvements, and ideas for this project.
 
 ## 🪧 Legend
 
-### 📊 State
-
-- ⏳ Not started
-- 🔄 In progress
-- ✅ Done
-
 ### 🚨 Priority
 
 - 🔴 High priority
 - 🟡 Medium priority
 - 🟢 Low priority
+
+### 📊 State
+
+- ⏳ Not started
+- 🔄 In progress
+- ✅ Done
 
 <p align="right">(<a href="#top">🔝 back to top</a>)</p>
 
