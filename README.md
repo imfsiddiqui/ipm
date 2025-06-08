@@ -1,16 +1,16 @@
 <!-- markdownlint-disable MD024 -->
 
-# 🚀 `ipm` - Integrated Package Manager
+# 📦 `ipm` - Integrated Package Manager
 
 - **Website:** <https://imfsiddiqui.github.io/ipm/>
 - **Source Code:** <https://github.com/imfsiddiqui/ipm>
 - **Releases:** <https://github.com/imfsiddiqui/ipm/releases>
 
-## 📑 Table of Contents
+## 📚 Table of Contents
 
-- [🚀 `ipm` - Integrated Package Manager](#-ipm---integrated-package-manager)
-  - [📑 Table of Contents](#-table-of-contents)
-  - [ℹ️ About](#ℹ️-about)
+- [📦 `ipm` - Integrated Package Manager](#-ipm---integrated-package-manager)
+  - [📚 Table of Contents](#-table-of-contents)
+  - [📌 About](#-about)
   - [✨ Key Features](#-key-features)
   - [📦 Supported Package Managers](#-supported-package-managers)
   - [🛠️ Installation](#️-installation)
@@ -19,36 +19,36 @@
       - [🚂 Move the Binary to a Directory](#-move-the-binary-to-a-directory)
       - [🫵 Add the Binary to PATH](#-add-the-binary-to-path)
         - [🐧🍏 Unix-like systems (Linux/macOS)](#-unix-like-systems-linuxmacos)
-        - [💻 Windows](#-windows)
+        - [🪟 Windows](#-windows)
     - [🏗️ Building from Source](#️-building-from-source)
       - [🌀 Clone the Repository](#-clone-the-repository)
       - [🔨 Make Build](#-make-build)
         - [🐧🍏 Shell Script (Linux/macOS)](#-shell-script-linuxmacos)
-        - [💻 PowerShell Script (Windows)](#-powershell-script-windows)
+        - [🪟 PowerShell Script (Windows)](#-powershell-script-windows)
     - [🐳 Dockerfiles](#-dockerfiles)
       - [🏗️ Building Docker Images](#️-building-docker-images)
       - [🚀 Running Docker Container](#-running-docker-container)
   - [📋 Usage](#-usage)
     - [🔍 Default Package Manager (auto-detected)](#-default-package-manager-auto-detected)
       - [📝 Basic Commands](#-basic-commands)
-        - [📜 List Installed Packages](#-list-installed-packages)
+        - [📃 List Installed Packages](#-list-installed-packages)
         - [🔎 Search for a Package](#-search-for-a-package)
-        - [ℹ️ Check Information about a Package](#ℹ️-check-information-about-a-package)
+        - [📖 Check Information about a Package](#-check-information-about-a-package)
         - [📥 Install a Package](#-install-a-package)
         - [🔄 Update Index of the Package Manager](#-update-index-of-the-package-manager)
         - [⬆️ Upgrade a Package](#️-upgrade-a-package)
-        - [⬆️⬆️ Upgrade all Packages](#️️-upgrade-all-packages)
+        - [⬆️ Upgrade all Packages](#️-upgrade-all-packages)
         - [🗑️ Remove a package](#️-remove-a-package)
       - [💡 Example](#-example)
     - [🛠️ Custom Package Manager](#️-custom-package-manager)
       - [📝 Basic Commands](#-basic-commands-1)
-        - [📜 List Installed Packages](#-list-installed-packages-1)
+        - [📃 List Installed Packages](#-list-installed-packages-1)
         - [🔎 Search for a Package](#-search-for-a-package-1)
-        - [ℹ️ Check Information about a Package](#ℹ️-check-information-about-a-package-1)
+        - [📖 Check Information about a Package](#-check-information-about-a-package-1)
         - [📥 Install a Package](#-install-a-package-1)
         - [🔄 Update Index of the Package Manager](#-update-index-of-the-package-manager-1)
         - [⬆️ Upgrade a Package](#️-upgrade-a-package-1)
-        - [⬆️⬆️ Upgrade all Packages](#️️-upgrade-all-packages-1)
+        - [⬆️ Upgrade all Packages](#️-upgrade-all-packages-1)
         - [🗑️ Remove a package](#️-remove-a-package-1)
       - [💡 Example](#-example-1)
   - [⚙️ Configuration](#️-configuration)
@@ -58,9 +58,9 @@
     - [📜 Code of Conduct](#-code-of-conduct)
   - [🙏 Acknowledgements](#-acknowledgements)
     - [🌟 Special Thanks](#-special-thanks)
-  - [📄 License](#-license)
+  - [📜 License](#-license)
 
-## ℹ️ About
+## 📌 About
 
 `ipm` - Integrated Package Manager is a powerful, cross-platform tool designed to unify the command-line interface (CLI) commands for various package managers. It acts as a universal frontend, working on top of other package managers to provide a seamless and consistent experience for managing software packages across different operating systems.
 
@@ -166,7 +166,7 @@ echo 'export PATH=$PATH:/path/to/ipm' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-##### 💻 Windows
+##### 🪟 Windows
 
 ```powershell
 # Add the directory to your PATH
@@ -193,7 +193,7 @@ To build `ipm`, you can use the provided build scripts.
 - Open a terminal.
 - Run the build script: `./scripts/build/build.sh`
 
-##### 💻 PowerShell Script (Windows)
+##### 🪟 PowerShell Script (Windows)
 
 - Open a PowerShell terminal.
 - Run the build script: `.\scripts\build\build.ps1`.
@@ -226,7 +226,7 @@ docker run --rm -it ipm-<package-manager-name>:latest /bin/sh
 
 #### 📝 Basic Commands
 
-##### 📜 List Installed Packages
+##### 📃 List Installed Packages
 
 ```sh
 ipm list
@@ -238,7 +238,7 @@ ipm list
 ipm search <package-name>
 ```
 
-##### ℹ️ Check Information about a Package
+##### 📖 Check Information about a Package
 
 ```sh
 ipm info <package-name>
@@ -262,7 +262,7 @@ ipm update
 ipm upgrade <package-name>
 ```
 
-##### ⬆️⬆️ Upgrade all Packages
+##### ⬆️ Upgrade all Packages
 
 ```sh
 ipm upgrade-all
@@ -286,7 +286,7 @@ ipm install jq
 
 #### 📝 Basic Commands
 
-##### 📜 List Installed Packages
+##### 📃 List Installed Packages
 
 ```sh
 ipm <package-manager> list
@@ -298,7 +298,7 @@ ipm <package-manager> list
 ipm <package-manager> search <package-name>
 ```
 
-##### ℹ️ Check Information about a Package
+##### 📖 Check Information about a Package
 
 ```sh
 ipm <package-manager> info <package-name>
@@ -322,7 +322,7 @@ ipm <package-manager> update
 ipm <package-manager> upgrade <package-name>
 ```
 
-##### ⬆️⬆️ Upgrade all Packages
+##### ⬆️ Upgrade all Packages
 
 ```sh
 ipm <package-manager> upgrade-all
@@ -401,6 +401,6 @@ I would like to specifically acknowledge the developers of the following tools, 
 
 Your hard work and commitment to excellence have made it possible for me to build `ipm` and provide a unified package management experience for developers across different platforms. Thank you for your contributions to the open-source ecosystem.
 
-## 📄 License
+## 📜 License
 
 This project is licensed under the GPL-3.0 license. See the [LICENSE](https://github.com/imfsiddiqui/ipm/blob/main/LICENSE) file for details.
