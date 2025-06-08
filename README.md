@@ -8,7 +8,7 @@
 
 </div>
 
-# 📦 `ipm` - Integrated Package Manager
+# 📦 ipm - Integrated Package Manager
 
 A cross-platform tool that unifies CLI for various package managers, simplifies installation, updates, and removal of packages by standardizing commands.
 
@@ -22,7 +22,7 @@ A cross-platform tool that unifies CLI for various package managers, simplifies 
 
 ## 📚 Table of Contents
 
-- [📦 `ipm` - Integrated Package Manager](#-ipm---integrated-package-manager)
+- [📦 ipm - Integrated Package Manager](#-ipm---integrated-package-manager)
   - [📚 Table of Contents](#-table-of-contents)
   - [📌 About](#-about)
   - [✨ Key Features](#-key-features)
@@ -137,30 +137,30 @@ Use "ipm [command] --help" for more information about a command.
 
 | **Package Manager** | **Enabled (default)** | **Disabled (default)** |
 | :-----------------: | :-------------------: | :--------------------: |
-|         apk         |          ✅           |           ❌           |
-|         apt         |          ✅           |           ❌           |
-|        brew         |          ✅           |           ❌           |
-|        cards        |          ❌           |           ✅           |
-|        choco        |          ✅           |           ❌           |
-|         dnf         |          ✅           |           ❌           |
-|       emerge        |          ✅           |           ❌           |
-|        eopkg        |          ✅           |           ❌           |
-|       flatpak       |          ❌           |           ✅           |
-|        guix         |          ❌           |           ✅           |
-|        nala         |          ❌           |           ✅           |
-|       nix-env       |          ❌           |           ✅           |
-|         npm         |          ✅           |           ❌           |
-|        opkg         |          ❌           |           ✅           |
-|       pacman        |          ❌           |           ✅           |
-|         pip         |          ✅           |           ❌           |
-|        pip3         |          ✅           |           ❌           |
-|        scoop        |          ❌           |           ✅           |
-|      slackpkg       |          ❌           |           ✅           |
-|        snap         |          ❌           |           ✅           |
-|       winget        |          ✅           |           ❌           |
-|        xbps         |          ❌           |           ✅           |
-|         yum         |          ✅           |           ❌           |
-|       zypper        |          ✅           |           ❌           |
+|        `apk`        |          ✅           |           ❌           |
+|        `apt`        |          ✅           |           ❌           |
+|       `brew`        |          ✅           |           ❌           |
+|       `cards`       |          ❌           |           ✅           |
+|       `choco`       |          ✅           |           ❌           |
+|        `dnf`        |          ✅           |           ❌           |
+|      `emerge`       |          ✅           |           ❌           |
+|       `eopkg`       |          ✅           |           ❌           |
+|      `flatpak`      |          ❌           |           ✅           |
+|       `guix`        |          ❌           |           ✅           |
+|       `nala`        |          ❌           |           ✅           |
+|      `nix-env`      |          ❌           |           ✅           |
+|        `npm`        |          ✅           |           ❌           |
+|       `opkg`        |          ❌           |           ✅           |
+|      `pacman`       |          ❌           |           ✅           |
+|        `pip`        |          ✅           |           ❌           |
+|       `pip3`        |          ✅           |           ❌           |
+|       `scoop`       |          ❌           |           ✅           |
+|     `slackpkg`      |          ❌           |           ✅           |
+|       `snap`        |          ❌           |           ✅           |
+|      `winget`       |          ✅           |           ❌           |
+|       `xbps`        |          ❌           |           ✅           |
+|        `yum`        |          ✅           |           ❌           |
+|      `zypper`       |          ✅           |           ❌           |
 
 <p align="right">(<a href="#top">🔝 back to top</a>)</p>
 
@@ -202,7 +202,11 @@ source ~/.bashrc
 
 ```powershell
 # Add the directory to your PATH
-[System.Environment]::SetEnvironmentVariable("Path", $env:Path + ";path\to\ipm", [System.EnvironmentVariableTarget]::Machine)
+[System.Environment]::SetEnvironmentVariable(
+  "Path",
+  $env:Path + ";path\to\ipm",
+  [System.EnvironmentVariableTarget]::Machine
+)
 ```
 
 ### 🏗️ Building from Source
@@ -450,6 +454,6 @@ Your hard work and commitment to excellence have made it possible for me to buil
 
 ## 📜 License
 
-This project is licensed under the GPL-3.0 license. See the [LICENSE](https://github.com/imfsiddiqui/ipm/blob/main/LICENSE) file for details.
+This project is licensed under the GPL-3.0 license. See the [LICENSE](https://github.com/imfsiddiqui/ipm/blob/main/LICENSE.md) file for details.
 
 <p align="right">(<a href="#top">🔝 back to top</a>)</p>
