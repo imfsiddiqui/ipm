@@ -1,5 +1,7 @@
 <!-- markdownlint-disable MD024 MD033 MD041 -->
 
+<a id="top"></a>
+
 <div align=center>
 
 🌍 **[Web Page](https://imfsiddiqui.github.io/ipm/)** | 💻 **[Source Code](https://github.com/imfsiddiqui/ipm)** | 🚀 **[Releases](https://github.com/imfsiddiqui/ipm/releases)**
@@ -66,6 +68,8 @@ A cross-platform tool that unifies CLI for various package managers, simplifies 
     - [🌟 Special Thanks](#-special-thanks)
   - [📜 License](#-license)
 
+<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+
 ## 📌 About
 
 `ipm` - Integrated Package Manager is a powerful, cross-platform tool designed to unify the command-line interface (CLI) commands for various package managers. It acts as a universal frontend, working on top of other package managers to provide a seamless and consistent experience for managing software packages across different operating systems.
@@ -109,6 +113,8 @@ Flags:
 Use "ipm [command] --help" for more information about a command.
 ```
 
+<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+
 ## ✨ Key Features
 
 - **Cross-Platform Compatibility**: Supports multiple operating systems including Windows, Linux, and macOS.
@@ -116,6 +122,8 @@ Use "ipm [command] --help" for more information about a command.
 - **Efficient Package Management**: Simplifies the installation, update, and removal of software packages.
 - **Customizable Configurations**: Allows users to define custom commands and configurations for different package managers.
 - **Extensible**: Easily extendable to support additional package managers and custom commands.
+
+<p align="right">(<a href="#top">🔝 back to top</a>)</p>
 
 ## 📦 Supported Package Managers
 
@@ -145,6 +153,8 @@ Use "ipm [command] --help" for more information about a command.
 |        xbps         |          ❌           |           ✅           |
 |         yum         |          ✅           |           ❌           |
 |       zypper        |          ✅           |           ❌           |
+
+<p align="right">(<a href="#top">🔝 back to top</a>)</p>
 
 ## 🛠️ Installation
 
@@ -238,6 +248,8 @@ To run `ipm` Docker container:
 ```shell
 docker run --rm -it ipm-<package-manager-name>:latest /bin/sh
 ```
+
+<p align="right">(<a href="#top">🔝 back to top</a>)</p>
 
 ## 📋 Usage
 
@@ -361,6 +373,8 @@ To install the `fast-json-stringify` package using `npm`:
 ipm npm install fast-json-stringify
 ```
 
+<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+
 ## ⚙️ Configuration
 
 `ipm` uses a JSON configuration file to define custom commands and settings for different package managers. The configuration file is located in the config directory.
@@ -383,6 +397,8 @@ ipm npm install fast-json-stringify
 }
 ```
 
+<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+
 ## 🤝 Contributing
 
 Contributions are welcome! If you have suggestions for improvements, please open an issue or submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
@@ -399,6 +415,8 @@ Contributions are welcome! If you have suggestions for improvements, please open
 ### 📜 Code of Conduct
 
 This project adheres to the Contributor Covenant code of conduct. By participating, you are expected to uphold this code.
+
+<p align="right">(<a href="#top">🔝 back to top</a>)</p>
 
 ## 🙏 Acknowledgements
 
@@ -420,6 +438,10 @@ I would like to specifically acknowledge the developers of the following tools, 
 
 Your hard work and commitment to excellence have made it possible for me to build `ipm` and provide a unified package management experience for developers across different platforms. Thank you for your contributions to the open-source ecosystem.
 
+<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+
 ## 📜 License
 
 This project is licensed under the GPL-3.0 license. See the [LICENSE](https://github.com/imfsiddiqui/ipm/blob/main/LICENSE) file for details.
+
+<p align="right">(<a href="#top">🔝 back to top</a>)</p>
