@@ -24,10 +24,15 @@ out/
 
 # Environment
 .env
+.env.dev
 .env.development
 .env.local
+.env.prod
 .env.production
+.env.stag
+.env.staging
 .env.test
+.env.testing
 
 # Linux
 *~
@@ -61,4 +66,4 @@ Desktop.ini
 Thumbs.db
 
 # Others
-inputs.csv
+**/tmp/**
