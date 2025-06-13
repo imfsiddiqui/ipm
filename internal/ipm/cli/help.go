@@ -13,13 +13,14 @@ import "github.com/spf13/cobra"
 //   - rootCmd: The root command for which the help command will be updated.
 //
 // Example usage:
-//   rootCmd := &cobra.Command{Use: "ipm"}
-//   cli.UpdateHelpCommand(rootCmd)
+//
+//	rootCmd := &cobra.Command{Use: "ipm"}
+//	cli.UpdateHelpCommand(rootCmd)
 //
 // This function performs the following steps:
-//   1. Creates a new "no-help" command.
-//   2. Sets the command to be hidden from the help output.
-//   3. Replaces the default help command with the "no-help" command.
+//  1. Creates a new "no-help" command.
+//  2. Sets the command to be hidden from the help output.
+//  3. Replaces the default help command with the "no-help" command.
 func UpdateHelpCommand(rootCmd *cobra.Command) {
 	// Create the "no-help" command
 	noHelpCmd := &cobra.Command{

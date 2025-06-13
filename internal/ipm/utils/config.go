@@ -10,17 +10,18 @@ package utils
 // Fields:
 //   - Enabled: A boolean indicating whether the config are enabled or not.
 //   - Commands: A map where the keys are command names and the values are
-//               the corresponding command strings.
+//     the corresponding command strings.
 //
 // Example JSON structure:
-// {
-//   "enabled": true,
-//   "commands": {
-//     "install": "install-command",
-//     "update": "update-command",
-//     ...
-//   }
-// }
+//
+//	{
+//	  "enabled": true,
+//	  "commands": {
+//	    "install": "install-command",
+//	    "update": "update-command",
+//	    ...
+//	  }
+//	}
 //
 // This struct is useful for managing the configuration of commands in a
 // structured and easily accessible manner.
