@@ -24,9 +24,9 @@ A cross-platform tool that unifies CLI for various package managers, simplifies 
 
 <div align="center">
   <img
-    src="https://raw.githubusercontent.com/imfsiddiqui/ipm/refs/heads/main/pages/assets/images/ipm.svg"
+    src="./assets/images/{{ site.repository_name }}.svg"
     style="border-radius: 10px"
-    alt="ipm"
+    alt="{{ site.repository_name }}"
   />
 </div>
 
