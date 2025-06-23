@@ -1,27 +1,71 @@
-# Commit Instructions
+# 📜 Commit Instructions
 
-Generate a Git commit message that strictly follows the [Conventional Commits](https://www.conventionalcommits.org/) format.
+All Git commit messages **must** follow the [Conventional Commits](https://www.conventionalcommits.org/) specification, **with strict formatting and structure** as defined below.
 
-Start with a type given in the following list, and optionally include a scope in parentheses.
+## ✅ Commit Message Format
 
-- `🐛 fix`
-- `✨ feat`
-- `📦 build`
-- `🔧 chore`
-- `👷 ci`
-- `📝 docs`
-- `🎨 style`
-- `♻️ refactor`
-- `🚀 perf`
-- `✅ test`
+### 1. Type Prefix (required, use emoji + type)
 
-The first line must be a concise summary of the change, no longer than 50 characters.
+Start commit message with one of the following types:
 
-After a blank line, include an extremely detailed explanation of what was changed, why it was changed, how it was implemented, and any trade-offs, implications, or related considerations.
+- `🐛 fix` - Bug fixes
+- `✨ feat` - New features
+- `📦 build` - Build system or dependency changes
+- `🔧 chore` - Maintenance tasks not affecting production code
+- `👷 ci` - Continuous Integration setup or changes
+- `📝 docs` - Documentation-only changes
+- `🎨 style` - Code style, formatting, missing semicolons, etc.
+- `♻️ refactor` - Code changes that neither fix bugs nor add features
+- `🚀 perf` - Performance improvements
+- `✅ test` - Adding or updating tests
 
-- Wrap all lines in the detailed section at 72 characters to ensures optimal readability in terminals, diffs, and version control tools.
-- Use clear, technical language.
-- Include relevant module names, function names, edge cases handled, and any dependencies affected.
-- If the change fixes a bug or addresses an issue, mention the issue number (e.g., `Fixes #123`).
+### 2. Scope (required)
 
-Follow best practices for semantic commit messages.
+Include a scope that describes what part of the codebase is affected.
+
+**Format:**
+
+```txt
+type(scope): summary
+```
+
+**Example:**
+
+```txt
+✨ feat(api): add user authentication middleware
+```
+
+### 3. Summary Line (required)
+
+- Keep it short and specific
+- **Maximum length: 50 characters**
+- Should describe **what** was changed (not how)
+
+### 4. Detailed Description (required)
+
+After a blank line, write a **detailed explanation** of the change. The body must:
+
+- Explain **what** was changed
+- Explain **why** the change was made
+- Explain **how** it was implemented
+- Include **edge cases, trade-offs, side effects**, and relevant details
+- Mention affected **modules, functions, or dependencies**
+- Reference related issues using `Fixes #<issue-number>` (when applicable)
+- **Line wrapping: 72 characters max per line**
+
+### 📌 Example Commit Message
+
+```txt
+✅ test(api): add edge case tests for null input
+
+Added unit tests in `api/utils.test.js` to validate behavior when
+null or undefined inputs are passed to `parseQueryParams`. This
+prevents potential runtime exceptions during SSR. Also adjusted
+the mock initialization to support legacy test environments.
+
+Fixes #101
+```
+
+## 🚫 Non-Compliant Commits
+
+Ensure commits meet all requirements to maintain a clean, consistent, and automated history. This format should be enforced, non-compliant commits will be rejected.
