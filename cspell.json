@@ -1,0 +1,28 @@
+// cSpell Settings
+{
+  // Version of the setting file.  Always 0.2
+  "version": "0.2",
+  // language - current active spelling language
+  "language": "en",
+  // words - list of words to be always considered correct
+  // This is useful for project specific words, acronyms, and names.
+  // For example, you might want to add "cspell" or "typescript" to
+  // the list of words to be always considered correct.
+  "words": [
+    "venv"
+  ],
+  // flagWords - list of words to be always considered incorrect
+  // This is useful for offensive words and common spelling errors.
+  // For example "hte" should be "the"
+  "flagWords": [],
+  // ignorePaths - list of glob patterns to ignore
+  // This is useful for ignoring files that are not relevant to the project.
+  // For example, you might want to ignore node_modules, dist, build, etc.
+  "ignorePaths": [
+    ".venv/**",
+    "**/*.log",
+    "build/**",
+    "dist/**",
+    "node_modules/**"
+  ]
+}
