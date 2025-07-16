@@ -18,7 +18,7 @@ This file contains a list of tasks, improvements, and ideas for this project.
     - [🐛 Bugs](#-bugs)
     - [♻️ Refactoring](#️-refactoring)
 
-<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+<p align="right"><a href="#top">☝️</a></p>
 
 ## 🪧 Legend
 
@@ -34,7 +34,7 @@ This file contains a list of tasks, improvements, and ideas for this project.
 - 🔄 In progress
 - ✅ Done
 
-<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+<p align="right"><a href="#top">☝️</a></p>
 
 ## 📝 List
 
@@ -50,10 +50,10 @@ This file contains a list of tasks, improvements, and ideas for this project.
 
 -
 
-<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+<p align="right"><a href="#top">☝️</a></p>
 
 ---
 
 📌 **Last updated:** ***June 09, 2025***
 
-<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+<p align="right"><a href="#top">☝️</a></p>

@@ -86,7 +86,7 @@ A cross-platform tool that unifies CLI for various package managers, simplifies 
     - [🌟 Special Thanks](#-special-thanks)
   - [📜 License](#-license)
 
-<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+<p align="right"><a href="#top">☝️</a></p>
 
 ## 📌 About
 
@@ -131,7 +131,7 @@ Flags:
 Use "ipm [command] --help" for more information about a command.
 ```
 
-<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+<p align="right"><a href="#top">☝️</a></p>
 
 ## ✨ Key Features
 
@@ -141,7 +141,7 @@ Use "ipm [command] --help" for more information about a command.
 - **Customizable Configurations**: Allows users to define custom commands and configurations for different package managers.
 - **Extensible**: Easily extendable to support additional package managers and custom commands.
 
-<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+<p align="right"><a href="#top">☝️</a></p>
 
 ## 📦 Supported Package Managers
 
@@ -172,7 +172,7 @@ Use "ipm [command] --help" for more information about a command.
 |        `yum`        |          ✅           |           ❌           |
 |      `zypper`       |          ✅           |           ❌           |
 
-<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+<p align="right"><a href="#top">☝️</a></p>
 
 ## 🛠️ Installation
 
@@ -271,7 +271,7 @@ To run `ipm` Docker container:
 docker run --rm -it ipm-<package-manager-name>:latest /bin/sh
 ```
 
-<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+<p align="right"><a href="#top">☝️</a></p>
 
 ## 📋 Usage
 
@@ -395,7 +395,7 @@ To install the `fast-json-stringify` package using `npm`:
 ipm npm install fast-json-stringify
 ```
 
-<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+<p align="right"><a href="#top">☝️</a></p>
 
 ## ⚙️ Configuration
 
@@ -419,7 +419,7 @@ ipm npm install fast-json-stringify
 }
 ```
 
-<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+<p align="right"><a href="#top">☝️</a></p>
 
 ## 🤝 Contributing
 
@@ -438,7 +438,7 @@ Contributions are welcome! If you have suggestions for improvements, please open
 
 This project adheres to the Contributor Covenant code of conduct. By participating, you are expected to uphold this code.
 
-<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+<p align="right"><a href="#top">☝️</a></p>
 
 ## 🙏 Acknowledgements
 
@@ -460,10 +460,10 @@ I would like to specifically acknowledge the developers of the following tools, 
 
 Your hard work and commitment to excellence have made it possible for me to build `ipm` and provide a unified package management experience for developers across different platforms. Thank you for your contributions to the open-source ecosystem.
 
-<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+<p align="right"><a href="#top">☝️</a></p>
 
 ## 📜 License
 
 This project is licensed under the GPL-3.0 license. See the [LICENSE](https://github.com/imfsiddiqui/ipm/blob/main/LICENSE.md) file for details.
 
-<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+<p align="right"><a href="#top">☝️</a></p>
