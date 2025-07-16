@@ -5,9 +5,17 @@
     }
   ],
   "settings": {
+    "editor.rulers": [80],
+    "files.encoding": "utf8",
+    "files.eol": "\n",
     "github.copilot.chat.commitMessageGeneration.instructions": [
       {
-        "file": ".github/copilot/commit-instructions.md"
+        "file": ".github/copilot/commit-message-instructions.md"
+      }
+    ],
+    "github.copilot.chat.pullRequestDescriptionGeneration.instructions": [
+      {
+        "file": ".github/copilot/pull-request-description-instructions.md"
       }
     ]
   }
