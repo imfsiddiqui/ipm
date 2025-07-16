@@ -24,9 +24,9 @@ A cross-platform tool that unifies CLI for various package managers, simplifies 
 
 <div align="center">
   <img
-    src="./assets/images/{{ site.repository_name }}.svg"
+    src="./assets/images/ipm-banner-standard.svg"
     style="border-radius: 10px"
-    alt="{{ site.repository_name }}"
+    alt="ipm project banner"
   />
 </div>
 
@@ -78,10 +78,8 @@ A cross-platform tool that unifies CLI for various package managers, simplifies 
         - [🗑️ Remove a package](#️-remove-a-package-1)
       - [💡 Example](#-example-1)
   - [⚙️ Configuration](#️-configuration)
-    - [📄 Example Configuration](#-example-configuration)
-  - [🤝 Contributing](#-contributing)
-    - [🛠️ How to Contribute](#️-how-to-contribute)
-    - [📜 Code of Conduct](#-code-of-conduct)
+    - [🪞 Example Configuration](#-example-configuration)
+  - [📄 Important Documents](#-important-documents)
   - [🙏 Acknowledgements](#-acknowledgements)
     - [🌟 Special Thanks](#-special-thanks)
   - [📜 License](#-license)
@@ -96,7 +94,7 @@ In today's diverse development environments, developers, software engineers, and
 
 `ipm` aims to solve these issues by offering a single, unified CLI that abstracts away the complexities of individual package managers. Whether you're working on Windows, Linux, or macOS, `ipm` provides a consistent and intuitive interface for installing, updating, and removing software packages. By standardizing package management commands, `ipm` simplifies the workflow, reduces the potential for errors, and enhances productivity.
 
-```txt
+```console
 $ ipm
 Usage:
   ipm [command]
@@ -194,7 +192,7 @@ Add the directory containing the binary to your system's PATH. This allows you t
 
 ##### 🐧 Linux
 
-```shell
+```console
 # Add the directory to your PATH
 echo 'export PATH=$PATH:/path/to/ipm' >> ~/.bashrc
 source ~/.bashrc
@@ -202,7 +200,7 @@ source ~/.bashrc
 
 ##### 🍏 macOS
 
-```shell
+```console
 # Add the directory to your PATH
 echo 'export PATH=$PATH:/path/to/ipm' >> ~/.bashrc
 source ~/.bashrc
@@ -210,7 +208,7 @@ source ~/.bashrc
 
 ##### 🪟 Windows
 
-```powershell
+```console
 # Add the directory to your PATH
 [System.Environment]::SetEnvironmentVariable(
   "Path",
@@ -225,7 +223,7 @@ To build `ipm` from source, you need to have [Go](https://golang.org/dl/) instal
 
 #### 🌀 Clone the Repository
 
-```shell
+```console
 git clone https://github.com/your-repo/ipm.git
 cd ipm
 ```
@@ -259,7 +257,7 @@ Dockerfiles are provided to build Docker images for `ipm`. These Dockerfiles are
 
 To build a Docker image for `ipm`, run the following command from project root:
 
-```shell
+```console
 docker build -t ipm-<package-manager-name>:latest -f dockerfiles/<package-manager-name>/Dockerfile .
 ```
 
@@ -267,7 +265,7 @@ docker build -t ipm-<package-manager-name>:latest -f dockerfiles/<package-manage
 
 To run `ipm` Docker container:
 
-```shell
+```console
 docker run --rm -it ipm-<package-manager-name>:latest /bin/sh
 ```
 
@@ -281,49 +279,49 @@ docker run --rm -it ipm-<package-manager-name>:latest /bin/sh
 
 ##### 📃 List Installed Packages
 
-```shell
+```console
 ipm list
 ```
 
 ##### 🔎 Search for a Package
 
-```shell
+```console
 ipm search <package-name>
 ```
 
 ##### 📖 Check Information about a Package
 
-```shell
+```console
 ipm info <package-name>
 ```
 
 ##### 📥 Install a Package
 
-```shell
+```console
 ipm install <package-name>
 ```
 
 ##### 🔄 Update Index of the Package Manager
 
-```shell
+```console
 ipm update
 ```
 
 ##### ⬆️ Upgrade a Package
 
-```shell
+```console
 ipm upgrade <package-name>
 ```
 
 ##### ⬆️ Upgrade all Packages
 
-```shell
+```console
 ipm upgrade-all
 ```
 
 ##### 🗑️ Remove a package
 
-```shell
+```console
 ipm uninstall <package-name>
 ```
 
@@ -331,7 +329,7 @@ ipm uninstall <package-name>
 
 To install the `jq` package:
 
-```shell
+```console
 ipm install jq
 ```
 
@@ -341,49 +339,49 @@ ipm install jq
 
 ##### 📃 List Installed Packages
 
-```shell
+```console
 ipm <package-manager> list
 ```
 
 ##### 🔎 Search for a Package
 
-```shell
+```console
 ipm <package-manager> search <package-name>
 ```
 
 ##### 📖 Check Information about a Package
 
-```shell
+```console
 ipm <package-manager> info <package-name>
 ```
 
 ##### 📥 Install a Package
 
-```shell
+```console
 ipm <package-manager> install <package-name>
 ```
 
 ##### 🔄 Update Index of the Package Manager
 
-```shell
+```console
 ipm <package-manager> update
 ```
 
 ##### ⬆️ Upgrade a Package
 
-```shell
+```console
 ipm <package-manager> upgrade <package-name>
 ```
 
 ##### ⬆️ Upgrade all Packages
 
-```shell
+```console
 ipm <package-manager> upgrade-all
 ```
 
 ##### 🗑️ Remove a package
 
-```shell
+```console
 ipm <package-manager> uninstall <package-name>
 ```
 
@@ -391,7 +389,7 @@ ipm <package-manager> uninstall <package-name>
 
 To install the `fast-json-stringify` package using `npm`:
 
-```shell
+```console
 ipm npm install fast-json-stringify
 ```
 
@@ -401,7 +399,7 @@ ipm npm install fast-json-stringify
 
 `ipm` uses a JSON configuration file to define custom commands and settings for different package managers. The configuration file is located in the config directory.
 
-### 📄 Example Configuration
+### 🪞 Example Configuration
 
 ```json
 {
@@ -421,22 +419,17 @@ ipm npm install fast-json-stringify
 
 <p align="right"><a href="#top">☝️</a></p>
 
-## 🤝 Contributing
+## 📄 Important Documents
 
-Contributions are welcome! If you have suggestions for improvements, please open an issue or submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
-
-### 🛠️ How to Contribute
-
-- Fork the repository.
-- Create a new branch (`git checkout -b feature-branch`).
-- Make your changes.
-- Commit your changes (`git commit -am 'Add new feature'`).
-- Push to the branch (`git push origin feature-branch`).
-- Open a pull request.
-
-### 📜 Code of Conduct
-
-This project adheres to the Contributor Covenant code of conduct. By participating, you are expected to uphold this code.
+- [Changelog](https://github.com/imfsiddiqui/ipm/blob/main/docs/CHANGELOG.md): Changelog of all notable changes.
+- [Code of Conduct](https://github.com/imfsiddiqui/ipm/blob/main/docs/CODE-OF-CONDUCT.md): Code of Conduct for contributors.
+- [Commit Message Instructions](https://github.com/imfsiddiqui/ipm/blob/main/.github/copilot/commit-message-instructions.md): Commit message guidelines for contributors and Copilot.
+- [Contribution Guidelines](https://github.com/imfsiddiqui/ipm/blob/main/docs/CONTRIBUTING.md): How to contribute to this project.
+- [License](https://github.com/imfsiddiqui/ipm/blob/main/LICENSE.md): License text.
+- [Pull Request Description Instructions](https://github.com/imfsiddiqui/ipm/blob/main/.github/copilot/pull-request-description-instructions.md): Pull request guidelines for contributors and Copilot.
+- [Roadmap](https://github.com/imfsiddiqui/ipm/blob/main/docs/ROADMAP.md): High-level strategic plan, long-term goals, milestones, and overall project vision.
+- [Security Policy](https://github.com/imfsiddiqui/ipm/blob/main/docs/SECURITY.md): Security policy and reporting instructions.
+- [Todo](https://github.com/imfsiddiqui/ipm/blob/main/docs/TODO.md): Day-to-day task tracking and immediate execution.
 
 <p align="right"><a href="#top">☝️</a></p>
 
@@ -464,6 +457,6 @@ Your hard work and commitment to excellence have made it possible for me to buil
 
 ## 📜 License
 
-This project is licensed under the GPL-3.0 license. See the [LICENSE](https://github.com/imfsiddiqui/ipm/blob/main/LICENSE.md) file for details.
+This project is licensed under the [MIT License](https://github.com/imfsiddiqui/ipm/blob/main/LICENSE.md), allowing anyone to use, modify, and distribute it freely for personal or commercial purposes.
 
 <p align="right"><a href="#top">☝️</a></p>
