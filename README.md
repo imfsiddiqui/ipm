@@ -14,7 +14,7 @@ A cross-platform tool that unifies CLI for various package managers, simplifies 
 
 <div align="center">
   <img
-    src="docs/pages/assets/images/brepo-banner-standard.svg"
+    src="docs/pages/assets/images/ipm-banner-standard.svg"
     style="border-radius: 10px"
     alt="ipm project banner"
   />
