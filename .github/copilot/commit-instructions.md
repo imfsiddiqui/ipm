@@ -1,4 +1,4 @@
-# 📜 Commit Instructions
+# 📝 Commit Message Instructions
 
 All Git commit messages **must** follow the [Conventional Commits](https://www.conventionalcommits.org/) specification, **with strict formatting and structure** as defined below.
 
@@ -8,16 +8,17 @@ All Git commit messages **must** follow the [Conventional Commits](https://www.c
 
 Start commit message with one of the following types:
 
-- `🐛 fix` - Bug fixes
-- `✨ feat` - New features
-- `📦 build` - Build system or dependency changes
-- `🔧 chore` - Maintenance tasks not affecting production code
-- `👷 ci` - Continuous Integration setup or changes
+- `🏗️ build` - Changes that affect the build system or external dependencies
+- `🔧 chore` - Maintenance tasks not affecting main code
+- `👷 ci` - Changes to CI configuration files and scripts
 - `📝 docs` - Documentation-only changes
-- `🎨 style` - Code style, formatting, missing semicolons, etc.
+- `✨ feat` - New features
+- `🐛 fix` - Bug fixes
+- `🚀 perf` - Changes that improve performance
 - `♻️ refactor` - Code changes that neither fix bugs nor add features
-- `🚀 perf` - Performance improvements
-- `✅ test` - Adding or updating tests
+- `↩️ revert` - Reverting a previous commit
+- `🎨 style` - Code style, formatting, missing semicolons, etc.
+- `🧪 test` - Adding or updating tests
 
 ### 2. Scope (required)
 
@@ -25,13 +26,13 @@ Include a scope that describes what part of the codebase is affected.
 
 **Format:**
 
-```txt
+```plaintext
 type(scope): summary
 ```
 
 **Example:**
 
-```txt
+```plaintext
 ✨ feat(api): add user authentication middleware
 ```
 
@@ -39,7 +40,7 @@ type(scope): summary
 
 - Keep it short and specific
 - **Maximum length: 50 characters**
-- Should describe **what** was changed (not how)
+- Should describe **what** was changed, not how
 
 ### 4. Detailed Description (required)
 
@@ -50,13 +51,21 @@ After a blank line, write a **detailed explanation** of the change. The body mus
 - Explain **how** it was implemented
 - Include **edge cases, trade-offs, side effects**, and relevant details
 - Mention affected **modules, functions, or dependencies**
-- Reference related issues using `Fixes #<issue-number>` (when applicable)
 - **Line wrapping: 72 characters max per line**
 
-### 📌 Example Commit Message
+### 5. Footer (optional)
 
-```txt
-✅ test(api): add edge case tests for null input
+After a blank line, write a **footer** if required. The body must:
+
+- Inform about breaking changes and deprecations (when applicable)
+- Reference related issues using `Fixes #<issue-number>` (when applicable)
+- Reference pull request that this commit closes `Closes #<pr-number>` or is related `Related #<pr-number>` (when applicable)
+- **Line wrapping: 72 characters max per line**
+
+### Example Commit Message
+
+```plaintext
+🧪 test(api): add edge case tests for null input
 
 Added unit tests in `api/utils.test.js` to validate behavior when
 null or undefined inputs are passed to `parseQueryParams`. This
