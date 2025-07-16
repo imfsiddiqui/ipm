@@ -2,58 +2,58 @@
 
 <a id="top"></a>
 
-# 📝 TODO
+# 📝 Todo
 
-This file contains a list of tasks, improvements, and ideas for this project.
+This file is for day-to-day task tracking and immediate execution. It uses categories, priority, and state indicators to clearly outline ongoing and planned work. For high-level strategy, long-term goals, and vision, see [Roadmap](ROADMAP.md).
 
 ## 📚 Table of Contents
 
-- [📝 TODO](#-todo)
+- [📝 Todo](#-todo)
   - [📚 Table of Contents](#-table-of-contents)
-  - [🪧 Legend](#-legend)
-    - [🚨 Priority](#-priority)
-    - [📊 State](#-state)
   - [📝 List](#-list)
-    - [✨ Features](#-features)
-    - [🐛 Bugs](#-bugs)
-    - [♻️ Refactoring](#️-refactoring)
-
-<p align="right"><a href="#top">☝️</a></p>
-
-## 🪧 Legend
-
-### 🚨 Priority
-
-- 🔴 High priority
-- 🟡 Medium priority
-- 🟢 Low priority
-
-### 📊 State
-
-- ⏳ Not started
-- 🔄 In progress
-- ✅ Done
+  - [📗 Emoji Definition](#-emoji-definition)
+    - [🏷️ Task Type](#️-task-type)
+    - [🔥 Task Priority](#-task-priority)
+    - [📅 Task Status](#-task-status)
 
 <p align="right"><a href="#top">☝️</a></p>
 
 ## 📝 List
 
-### ✨ Features
+- [ ] 🏗️🟡⏳ Add a CI/CD pipeline to automate releases whenever a new version tag is created, including builds for all supported platforms.
 
-- 🟡⏳ Add a CI/CD pipeline to automate releases whenever a new version tag is created, including builds for all supported platforms.
+## 📗 Emoji Definition
 
-### 🐛 Bugs
+### 🏷️ Task Type
 
--
+| **Emoji** |  **Meaning**  |
+| :-------: | :-----------: |
+|     🏗️     |     Build     |
+|     🔧     |     Chore     |
+|     👷     |      CI       |
+|     📝     | Documentation |
+|     ✨     |    Feature    |
+|     🐛     |      Fix      |
+|     🚀     |  Performance  |
+|     ♻️     |   Refactor    |
+|     ↩️     |    Revert     |
+|     🎨     |     Style     |
+|     🧪     |     Test      |
 
-### ♻️ Refactoring
+### 🔥 Task Priority
 
--
+| **Emoji** | **Meaning** |
+| :-------: | :---------: |
+|     🔴     |    High     |
+|     🟡     |   Medium    |
+|     🟢     |     Low     |
 
-<p align="right"><a href="#top">☝️</a></p>
+### 📅 Task Status
 
----
-
-📌 **Last updated:** ***June 09, 2025***
+| **Emoji** | **Meaning** |
+| :-------: | :---------: |
+|     ⏳     | Not started |
+|     🔄     | In progress |
+|     ✅     |    Done     |
 
 <p align="right"><a href="#top">☝️</a></p>
