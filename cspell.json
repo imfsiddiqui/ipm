@@ -9,6 +9,7 @@
   // For example, you might want to add "cspell" or "typescript" to
   // the list of words to be always considered correct.
   "words": [
+    "foxundermoon",
     "ipm",
     "venv"
   ],
