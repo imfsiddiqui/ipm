@@ -1,6 +1,8 @@
 # 📝 Commit Message Instructions
 
-All Git commit messages **must** follow the [Conventional Commits](https://www.conventionalcommits.org/) specification, **with strict formatting and structure** as defined below.
+All Git commit messages **must** follow the
+[Conventional Commits](https://www.conventionalcommits.org/) specification,
+**with strict formatting and structure** as defined below.
 
 ## ✅ Commit Message Format
 
@@ -44,7 +46,8 @@ type(scope): summary
 
 ### 4. Detailed Description (required)
 
-After a blank line, write a **detailed explanation** of the change. The body must:
+After a blank line, write a **detailed explanation** of the change. The body
+must:
 
 - Explain **what** was changed
 - Explain **why** the change was made
@@ -59,7 +62,8 @@ After a blank line, write a **footer** if required. The body must:
 
 - Inform about breaking changes and deprecations (when applicable)
 - Reference related issues using `Fixes #<issue-number>` (when applicable)
-- Reference pull request that this commit closes `Closes #<pr-number>` or is related `Related #<pr-number>` (when applicable)
+- Reference pull request that this commit closes `Closes #<pr-number>` or is
+  related `Related #<pr-number>` (when applicable)
 - **Line wrapping: 72 characters max per line**
 
 ### Example Commit Message
@@ -77,4 +81,6 @@ Fixes #101
 
 ## 🚫 Non-Compliant Commits
 
-Ensure commits meet all requirements to maintain a clean, consistent, and automated history. This format should be enforced, non-compliant commits will be rejected.
+Ensure commits meet all requirements to maintain a clean, consistent, and
+automated history. This format should be enforced, non-compliant commits will be
+rejected.
