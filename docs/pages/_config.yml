@@ -2,9 +2,12 @@ theme: jekyll-theme-cayman
 favicon_emoji: 📦
 repository_name: ipm
 title: ipm - Integrated Package Manager
-description: A cross-platform tool that unifies CLI for various package managers, simplifies installation, updates, and removal of packages by standardizing commands.
+description:
+  A cross-platform tool that unifies CLI for various package managers,
+  simplifies installation, updates, and removal of packages by standardizing
+  commands.
 show_downloads: true
 collections:
   pages:
-    output: true          # Generates HTML files for each file
-    permalink: /:path/    # URL structure for collection items
+    output: true # Generates HTML files for each file
+    permalink: /:path/ # URL structure for collection items
