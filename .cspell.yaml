@@ -1,0 +1,162 @@
+# ------------------------------------------------------------------------------
+# CSpell configuration file
+# https://cspell.org/docs/Configuration
+# ------------------------------------------------------------------------------
+
+# Version of the setting file.  Always 0.2
+version: "0.2"
+
+# language - current active spelling language
+language: en
+
+# words - list of words to be always considered correct
+# This is useful for project specific words, acronyms, and names.
+# For example, you might want to add "cspell" or "typescript" to
+# the list of words to be always considered correct.
+words:
+  - abstractproperty
+  - altgraph
+  - analyse
+  - analysed
+  - analyzeduration
+  - anyio
+  - argparse
+  - asctime
+  - asdict
+  - autofocus
+  - booleaness
+  - bordercolor
+  - borderopacity
+  - brepo
+  - centinum
+  - classmethod
+  - colorama
+  - contextlib
+  - contextmanager
+  - ctypes
+  - deskcolor
+  - docname
+  - docstrings
+  - dotenv
+  - dotenvs
+  - dshow
+  - esbenp
+  - faizan
+  - fastapi
+  - fflags
+  - firstparty
+  - foxundermoon
+  - httptools
+  - idna
+  - imfsiddiqui
+  - inkscape
+  - inlinevar
+  - ipm
+  - isort
+  - ixin
+  - jwtjwks
+  - keyint
+  - levelname
+  - libx
+  - linecap
+  - linejoin
+  - localfolder
+  - logformat
+  - logkey
+  - mediamtx
+  - mjpeg
+  - monitory
+  - mpegts
+  - msvs
+  - muxer
+  - mymodule
+  - mypackage
+  - mypy
+  - namedview
+  - njsproj
+  - nobuffer
+  - noout
+  - noqa
+  - nosec
+  - ntvs
+  - numpy
+  - onefile
+  - optparse
+  - otherstream
+  - overgeneral
+  - pagecheckerboard
+  - pagecolor
+  - pageopacity
+  - parseable
+  - pathspec
+  - pefile
+  - platformdirs
+  - pprof
+  - preconfigured
+  - probesize
+  - pycache
+  - pycodestyle
+  - pydantic
+  - pydocstyle
+  - pyflakes
+  - pygtk
+  - pyinstaller
+  - pylint
+  - pylintrc
+  - pywin
+  - rcfile
+  - remux
+  - rgxs
+  - rtcp
+  - rtmps
+  - rtsp
+  - rtsps
+  - setuptools
+  - showgrid
+  - showpageshadow
+  - siddiqui
+  - smpte
+  - sniffio
+  - snowballstemmer
+  - sodipodi
+  - softprops
+  - somepath
+  - starlette
+  - stdlib
+  - strftime
+  - tamasfe
+  - tcsh
+  - thirdparty
+  - timespan
+  - toml
+  - tomlkit
+  - tspan
+  - typealias
+  - typevar
+  - uvicorn
+  - vcodec
+  - venv
+  - watchfiles
+  - webrtc
+  - whep
+  - wheps
+  - xdpi
+  - xlink
+  - ydpi
+  - yuyv
+  - zerolatency
+
+# flagWords - list of words to be always considered incorrect
+# This is useful for offensive words and common spelling errors.
+# For example "hte" should be "the"
+flagWords: null
+
+# ignorePaths - list of glob patterns to ignore
+# This is useful for ignoring files that are not relevant to the project.
+# For example, you might want to ignore node_modules, dist, build, etc.
+ignorePaths:
+  - .venv/**
+  - "**/*.log"
+  - build/**
+  - dist/**
+  - node_modules/**
