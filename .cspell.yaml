@@ -24,7 +24,12 @@ words:
   - argparse
   - asctime
   - asdict
+  - autocapitalize
+  - autocorrect
   - autofocus
+  - backface
+  - bidi
+  - blackfriday
   - booleaness
   - bordercolor
   - borderopacity
@@ -34,8 +39,14 @@ words:
   - colorama
   - contextlib
   - contextmanager
+  - cpuguy
   - ctypes
+  - dasharray
+  - dashoffset
+  - davecgh
+  - depclean
   - deskcolor
+  - difflib
   - dockerfile
   - dockerfiles
   - docname
@@ -46,6 +57,7 @@ words:
   - dshow
   - eopkg
   - esbenp
+  - evenodd
   - faizan
   - fastapi
   - fflags
@@ -54,6 +66,8 @@ words:
   - gojsonpointer
   - gojsonreference
   - gojsonschema
+  - gopkg
+  - groupmode
   - guix
   - httptools
   - idna
@@ -68,6 +82,7 @@ words:
   - keyint
   - levelname
   - libx
+  - linearrgb
   - linecap
   - linejoin
   - localfolder
@@ -75,6 +90,7 @@ words:
   - logkey
   - macports
   - mediamtx
+  - miterlimit
   - mjpeg
   - monitory
   - mpegts
@@ -84,6 +100,7 @@ words:
   - mypackage
   - mypy
   - namedview
+  - neue
   - njsproj
   - nobuffer
   - noout
@@ -91,11 +108,14 @@ words:
   - nosec
   - ntvs
   - numpy
+  - objx
   - onefile
   - opkg
+  - optimizelegibility
   - optparse
   - otherstream
   - overgeneral
+  - overscroll
   - pacman
   - pagecheckerboard
   - pagecolor
@@ -103,7 +123,9 @@ words:
   - parseable
   - pathspec
   - pefile
+  - pkgs
   - platformdirs
+  - pmezard
   - pprof
   - preconfigured
   - probesize
@@ -117,13 +139,18 @@ words:
   - pylint
   - pylintrc
   - pywin
+  - qlist
   - rcfile
   - remux
+  - rgba
   - rgxs
+  - roboto
   - rtcp
   - rtmps
   - rtsp
   - rtsps
+  - russross
+  - segoe
   - setuptools
   - showgrid
   - showpageshadow
@@ -136,9 +163,12 @@ words:
   - sodipodi
   - softprops
   - somepath
+  - srgb
   - starlette
   - stdlib
+  - stretchr
   - strftime
+  - tabindex
   - tamasfe
   - tcsh
   - thirdparty
