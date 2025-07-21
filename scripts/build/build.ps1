@@ -55,7 +55,8 @@ function Invoke-BinaryBuild {
         Write-Host "Creating zip archive $archiveName..."
         # Use the Compress-Archive cmdlet to create the ZIP archive
         Compress-Archive -Path "$outputDir/*" -DestinationPath $archiveName
-    } else {
+    }
+    else {
         $archiveName = "$archiveDir/ipm-$GOOS-$GOARCH.tar.gz"
         Write-Host "Creating tar.gz archive $archiveName..."
         # Use the tar command to create the TAR.GZ archive

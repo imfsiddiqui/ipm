@@ -20,13 +20,14 @@ layout: default
 
 # 📦 ipm - Integrated Package Manager
 
-A cross-platform tool that unifies CLI for various package managers, simplifies installation, updates, and removal of packages by standardizing commands.
+A cross-platform tool that unifies CLI for various package managers, simplifies
+installation, updates, and removal of packages by standardizing commands.
 
 <div align="center">
   <img
-    src="./assets/images/{{ site.repository_name }}.svg"
+    src="./assets/images/banner-standard.svg"
     style="border-radius: 10px"
-    alt="{{ site.repository_name }}"
+    alt="project banner"
   />
 </div>
 
@@ -78,25 +79,36 @@ A cross-platform tool that unifies CLI for various package managers, simplifies 
         - [🗑️ Remove a package](#️-remove-a-package-1)
       - [💡 Example](#-example-1)
   - [⚙️ Configuration](#️-configuration)
-    - [📄 Example Configuration](#-example-configuration)
-  - [🤝 Contributing](#-contributing)
-    - [🛠️ How to Contribute](#️-how-to-contribute)
-    - [📜 Code of Conduct](#-code-of-conduct)
+    - [🪞 Example Configuration](#-example-configuration)
+  - [📄 Important Documents](#-important-documents)
   - [🙏 Acknowledgements](#-acknowledgements)
     - [🌟 Special Thanks](#-special-thanks)
   - [📜 License](#-license)
 
-<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+<p align="right"><a href="#top">☝️</a></p>
 
 ## 📌 About
 
-`ipm` - Integrated Package Manager is a powerful, cross-platform tool designed to unify the command-line interface (CLI) commands for various package managers. It acts as a universal frontend, working on top of other package managers to provide a seamless and consistent experience for managing software packages across different operating systems.
+`ipm` - Integrated Package Manager is a powerful, cross-platform tool designed
+to unify the command-line interface (CLI) commands for various package managers.
+It acts as a universal frontend, working on top of other package managers to
+provide a seamless and consistent experience for managing software packages
+across different operating systems.
 
-In today's diverse development environments, developers, software engineers, and system engineers often face the challenge of dealing with multiple package managers, each with its own set of commands and interfaces. This can lead to inefficiencies, errors, and a steep learning curve, especially when switching between different platforms.
+In today's diverse development environments, developers, software engineers, and
+system engineers often face the challenge of dealing with multiple package
+managers, each with its own set of commands and interfaces. This can lead to
+inefficiencies, errors, and a steep learning curve, especially when switching
+between different platforms.
 
-`ipm` aims to solve these issues by offering a single, unified CLI that abstracts away the complexities of individual package managers. Whether you're working on Windows, Linux, or macOS, `ipm` provides a consistent and intuitive interface for installing, updating, and removing software packages. By standardizing package management commands, `ipm` simplifies the workflow, reduces the potential for errors, and enhances productivity.
+`ipm` aims to solve these issues by offering a single, unified CLI that
+abstracts away the complexities of individual package managers. Whether you're
+working on Windows, Linux, or macOS, `ipm` provides a consistent and intuitive
+interface for installing, updating, and removing software packages. By
+standardizing package management commands, `ipm` simplifies the workflow,
+reduces the potential for errors, and enhances productivity.
 
-```txt
+```console
 $ ipm
 Usage:
   ipm [command]
@@ -131,17 +143,22 @@ Flags:
 Use "ipm [command] --help" for more information about a command.
 ```
 
-<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+<p align="right"><a href="#top">☝️</a></p>
 
 ## ✨ Key Features
 
-- **Cross-Platform Compatibility**: Supports multiple operating systems including Windows, Linux, and macOS.
-- **Unified Interface**: Provides a single, consistent CLI interface for managing packages across different platforms.
-- **Efficient Package Management**: Simplifies the installation, update, and removal of software packages.
-- **Customizable Configurations**: Allows users to define custom commands and configurations for different package managers.
-- **Extensible**: Easily extendable to support additional package managers and custom commands.
+- **Cross-Platform Compatibility**: Supports multiple operating systems
+  including Windows, Linux, and macOS.
+- **Unified Interface**: Provides a single, consistent CLI interface for
+  managing packages across different platforms.
+- **Efficient Package Management**: Simplifies the installation, update, and
+  removal of software packages.
+- **Customizable Configurations**: Allows users to define custom commands and
+  configurations for different package managers.
+- **Extensible**: Easily extendable to support additional package managers and
+  custom commands.
 
-<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+<p align="right"><a href="#top">☝️</a></p>
 
 ## 📦 Supported Package Managers
 
@@ -172,17 +189,20 @@ Use "ipm [command] --help" for more information about a command.
 |        `yum`        |          ✅           |           ❌           |
 |      `zypper`       |          ✅           |           ❌           |
 
-<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+<p align="right"><a href="#top">☝️</a></p>
 
 ## 🛠️ Installation
 
 ### 📦 Pre-built Binaries
 
-Pre-built binaries for various platforms are available in the [releases](https://github.com/imfsiddiqui/ipm/releases) section. Download the appropriate binary for your platform and add it to your system's PATH.
+Pre-built binaries for various platforms are available in the
+[releases](https://github.com/imfsiddiqui/ipm/releases) section. Download the
+appropriate binary for your platform and add it to your system's PATH.
 
 #### ⬇️ Download the Binary
 
-Navigate to the [releases](https://github.com/imfsiddiqui/ipm/releases) page and download the binary for your operating system.
+Navigate to the [releases](https://github.com/imfsiddiqui/ipm/releases) page and
+download the binary for your operating system.
 
 #### 🚂 Move the Binary to a Directory
 
@@ -190,11 +210,12 @@ Move the downloaded binary to a directory of your choice.
 
 #### 🫵 Add the Binary to PATH
 
-Add the directory containing the binary to your system's PATH. This allows you to run `ipm` from any terminal session.
+Add the directory containing the binary to your system's PATH. This allows you
+to run `ipm` from any terminal session.
 
 ##### 🐧 Linux
 
-```shell
+```console
 # Add the directory to your PATH
 echo 'export PATH=$PATH:/path/to/ipm' >> ~/.bashrc
 source ~/.bashrc
@@ -202,7 +223,7 @@ source ~/.bashrc
 
 ##### 🍏 macOS
 
-```shell
+```console
 # Add the directory to your PATH
 echo 'export PATH=$PATH:/path/to/ipm' >> ~/.bashrc
 source ~/.bashrc
@@ -210,7 +231,7 @@ source ~/.bashrc
 
 ##### 🪟 Windows
 
-```powershell
+```console
 # Add the directory to your PATH
 [System.Environment]::SetEnvironmentVariable(
   "Path",
@@ -221,11 +242,12 @@ source ~/.bashrc
 
 ### 🏗️ Building from Source
 
-To build `ipm` from source, you need to have [Go](https://golang.org/dl/) installed on your system.
+To build `ipm` from source, you need to have [Go](https://golang.org/dl/)
+installed on your system.
 
 #### 🌀 Clone the Repository
 
-```shell
+```console
 git clone https://github.com/your-repo/ipm.git
 cd ipm
 ```
@@ -249,17 +271,20 @@ To build `ipm`, you can use the provided build scripts.
 - Open a PowerShell terminal.
 - Run the build script: `.\scripts\build\build.ps1`.
 
-These scripts will build the binaries for the multiple platforms and create archives (ZIP for Windows and TAR.GZ for other platforms) in the `dist/release` directory.
+These scripts will build the binaries for the multiple platforms and create
+archives (ZIP for Windows and TAR.GZ for other platforms) in the `dist/release`
+directory.
 
 ### 🐳 Dockerfiles
 
-Dockerfiles are provided to build Docker images for `ipm`. These Dockerfiles are located in the `dockerfiles` directory.
+Dockerfiles are provided to build Docker images for `ipm`. These Dockerfiles are
+located in the `dockerfiles` directory.
 
 #### 🏗️ Building Docker Images
 
 To build a Docker image for `ipm`, run the following command from project root:
 
-```shell
+```console
 docker build -t ipm-<package-manager-name>:latest -f dockerfiles/<package-manager-name>/Dockerfile .
 ```
 
@@ -267,11 +292,11 @@ docker build -t ipm-<package-manager-name>:latest -f dockerfiles/<package-manage
 
 To run `ipm` Docker container:
 
-```shell
+```console
 docker run --rm -it ipm-<package-manager-name>:latest /bin/sh
 ```
 
-<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+<p align="right"><a href="#top">☝️</a></p>
 
 ## 📋 Usage
 
@@ -281,49 +306,49 @@ docker run --rm -it ipm-<package-manager-name>:latest /bin/sh
 
 ##### 📃 List Installed Packages
 
-```shell
+```console
 ipm list
 ```
 
 ##### 🔎 Search for a Package
 
-```shell
+```console
 ipm search <package-name>
 ```
 
 ##### 📖 Check Information about a Package
 
-```shell
+```console
 ipm info <package-name>
 ```
 
 ##### 📥 Install a Package
 
-```shell
+```console
 ipm install <package-name>
 ```
 
 ##### 🔄 Update Index of the Package Manager
 
-```shell
+```console
 ipm update
 ```
 
 ##### ⬆️ Upgrade a Package
 
-```shell
+```console
 ipm upgrade <package-name>
 ```
 
 ##### ⬆️ Upgrade all Packages
 
-```shell
+```console
 ipm upgrade-all
 ```
 
 ##### 🗑️ Remove a package
 
-```shell
+```console
 ipm uninstall <package-name>
 ```
 
@@ -331,7 +356,7 @@ ipm uninstall <package-name>
 
 To install the `jq` package:
 
-```shell
+```console
 ipm install jq
 ```
 
@@ -341,49 +366,49 @@ ipm install jq
 
 ##### 📃 List Installed Packages
 
-```shell
+```console
 ipm <package-manager> list
 ```
 
 ##### 🔎 Search for a Package
 
-```shell
+```console
 ipm <package-manager> search <package-name>
 ```
 
 ##### 📖 Check Information about a Package
 
-```shell
+```console
 ipm <package-manager> info <package-name>
 ```
 
 ##### 📥 Install a Package
 
-```shell
+```console
 ipm <package-manager> install <package-name>
 ```
 
 ##### 🔄 Update Index of the Package Manager
 
-```shell
+```console
 ipm <package-manager> update
 ```
 
 ##### ⬆️ Upgrade a Package
 
-```shell
+```console
 ipm <package-manager> upgrade <package-name>
 ```
 
 ##### ⬆️ Upgrade all Packages
 
-```shell
+```console
 ipm <package-manager> upgrade-all
 ```
 
 ##### 🗑️ Remove a package
 
-```shell
+```console
 ipm <package-manager> uninstall <package-name>
 ```
 
@@ -391,17 +416,19 @@ ipm <package-manager> uninstall <package-name>
 
 To install the `fast-json-stringify` package using `npm`:
 
-```shell
+```console
 ipm npm install fast-json-stringify
 ```
 
-<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+<p align="right"><a href="#top">☝️</a></p>
 
 ## ⚙️ Configuration
 
-`ipm` uses a JSON configuration file to define custom commands and settings for different package managers. The configuration file is located in the config directory.
+`ipm` uses a JSON configuration file to define custom commands and settings for
+different package managers. The configuration file is located in the config
+directory.
 
-### 📄 Example Configuration
+### 🪞 Example Configuration
 
 ```json
 {
@@ -419,51 +446,77 @@ ipm npm install fast-json-stringify
 }
 ```
 
-<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+<p align="right"><a href="#top">☝️</a></p>
 
-## 🤝 Contributing
+## 📄 Important Documents
 
-Contributions are welcome! If you have suggestions for improvements, please open an issue or submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
+- [Changelog](https://github.com/imfsiddiqui/ipm/blob/main/docs/CHANGELOG.md):
+  Changelog of all notable changes.
+- [Code of Conduct](https://github.com/imfsiddiqui/ipm/blob/main/docs/CODE-OF-CONDUCT.md):
+  Code of Conduct for contributors.
+- [Commit Message Instructions](https://github.com/imfsiddiqui/ipm/blob/main/.github/copilot/commit-message-instructions.md):
+  Commit message guidelines for contributors and Copilot.
+- [Contribution Guidelines](https://github.com/imfsiddiqui/ipm/blob/main/docs/CONTRIBUTING.md):
+  How to contribute to this project.
+- [License](https://github.com/imfsiddiqui/ipm/blob/main/LICENSE.md): License
+  text.
+- [Pull Request Description Instructions](https://github.com/imfsiddiqui/ipm/blob/main/.github/copilot/pull-request-description-instructions.md):
+  Pull request guidelines for contributors and Copilot.
+- [Roadmap](https://github.com/imfsiddiqui/ipm/blob/main/docs/ROADMAP.md):
+  High-level strategic plan, long-term goals, milestones, and overall project
+  vision.
+- [Security Policy](https://github.com/imfsiddiqui/ipm/blob/main/docs/SECURITY.md):
+  Security policy and reporting instructions.
+- [Todo](https://github.com/imfsiddiqui/ipm/blob/main/docs/TODO.md): Day-to-day
+  task tracking and immediate execution.
 
-### 🛠️ How to Contribute
-
-- Fork the repository.
-- Create a new branch (`git checkout -b feature-branch`).
-- Make your changes.
-- Commit your changes (`git commit -am 'Add new feature'`).
-- Push to the branch (`git push origin feature-branch`).
-- Open a pull request.
-
-### 📜 Code of Conduct
-
-This project adheres to the Contributor Covenant code of conduct. By participating, you are expected to uphold this code.
-
-<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+<p align="right"><a href="#top">☝️</a></p>
 
 ## 🙏 Acknowledgements
 
-I would like to extend my heartfelt thanks to all the developers and contributors whose work has made this project possible. Your dedication and contributions to the open-source community are invaluable, and I am grateful for the tools, libraries, and frameworks that you have created and maintained.
+I would like to extend my heartfelt thanks to all the developers and
+contributors whose work has made this project possible. Your dedication and
+contributions to the open-source community are invaluable, and I am grateful for
+the tools, libraries, and frameworks that you have created and maintained.
 
 ### 🌟 Special Thanks
 
-I would like to specifically acknowledge the developers of the following tools, frameworks and dependencies which are used in this project:
+I would like to specifically acknowledge the developers of the following tools,
+frameworks and dependencies which are used in this project:
 
-- **Go Language Team**: For providing a powerful and efficient programming language that forms the backbone of this project.
-- **Package Manager Developers**: For creating and maintaining the various package managers that `ipm` integrates with, including `apt`, `yum`, `brew`, `choco`, `npm`, `pip`, and many others.
-- **Library Authors**: For the numerous libraries and tools that have been utilized in this project, enhancing its functionality and performance, specially:
-  - **[github.com/spf13/cobra](https://github.com/spf13/cobra)**: For creating a library for building powerful modern CLI applications.
-  - **[github.com/xeipuuv/gojsonschema](https://github.com/xeipuuv/gojsonschema)**: For providing a library to validate JSON schemas.
-  - **[github.com/inconshreveable/mousetrap](https://github.com/inconshreveable/mousetrap)**: For helping detect when a Go program is run from a Windows shortcut.
-  - **[github.com/spf13/pflag](https://github.com/spf13/pflag)**: For providing a POSIX/GNU-style flag parsing library.
-  - **[github.com/xeipuuv/gojsonpointer](https://github.com/xeipuuv/gojsonpointer)**: For implementing JSON Pointer (RFC 6901).
-  - **[github.com/xeipuuv/gojsonreference](https://github.com/xeipuuv/gojsonreference)**: For implementing JSON Reference (RFC 6901).
+- **Go Language Team**: For providing a powerful and efficient programming
+  language that forms the backbone of this project.
+- **Package Manager Developers**: For creating and maintaining the various
+  package managers that `ipm` integrates with, including `apt`, `yum`, `brew`,
+  `choco`, `npm`, `pip`, and many others.
+- **Library Authors**: For the numerous libraries and tools that have been
+  utilized in this project, enhancing its functionality and performance,
+  specially:
+  - **[github.com/spf13/cobra](https://github.com/spf13/cobra)**: For creating a
+    library for building powerful modern CLI applications.
+  - **[github.com/xeipuuv/gojsonschema](https://github.com/xeipuuv/gojsonschema)**:
+    For providing a library to validate JSON schemas.
+  - **[github.com/inconshreveable/mousetrap](https://github.com/inconshreveable/mousetrap)**:
+    For helping detect when a Go program is run from a Windows shortcut.
+  - **[github.com/spf13/pflag](https://github.com/spf13/pflag)**: For providing
+    a POSIX/GNU-style flag parsing library.
+  - **[github.com/xeipuuv/gojsonpointer](https://github.com/xeipuuv/gojsonpointer)**:
+    For implementing JSON Pointer (RFC 6901).
+  - **[github.com/xeipuuv/gojsonreference](https://github.com/xeipuuv/gojsonreference)**:
+    For implementing JSON Reference (RFC 6901).
 
-Your hard work and commitment to excellence have made it possible for me to build `ipm` and provide a unified package management experience for developers across different platforms. Thank you for your contributions to the open-source ecosystem.
+Your hard work and commitment to excellence have made it possible for me to
+build `ipm` and provide a unified package management experience for developers
+across different platforms. Thank you for your contributions to the open-source
+ecosystem.
 
-<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+<p align="right"><a href="#top">☝️</a></p>
 
 ## 📜 License
 
-This project is licensed under the GPL-3.0 license. See the [LICENSE](https://github.com/imfsiddiqui/ipm/blob/main/LICENSE.md) file for details.
+This project is licensed under the
+[MIT License](https://github.com/imfsiddiqui/ipm/blob/main/LICENSE.md), allowing
+anyone to use, modify, and distribute it freely for personal or commercial
+purposes.
 
-<p align="right">(<a href="#top">🔝 back to top</a>)</p>
+<p align="right"><a href="#top">☝️</a></p>

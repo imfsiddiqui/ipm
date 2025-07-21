@@ -1,18 +1,23 @@
-# Build and distribution
+# ------------------------------------------------------------------------------
+# Git ignore file
+# https://git-scm.com/docs/gitignore
+# ------------------------------------------------------------------------------
+
+# Build and Distribution
 *.egg-info/
 bin/
 build/
 dist/
 out/
 
-# Debug and runtime
+# Debug and Runtime
 *.app
 *.dll
 *.exe
 *.out
 *.so
 
-# Editor
+# Editor and IDE Files
 *.njsproj
 *.ntvs*
 *.sln
@@ -20,9 +25,8 @@ out/
 *.sw
 *.swo
 *.swp
-*~
 
-# Environment
+# Environment Files
 .env
 .env.dev
 .env.development
@@ -34,24 +38,21 @@ out/
 .env.test
 .env.testing
 
-# Linux
-*~
-
-# Log
+# Log Files
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Mac
+# macOS System Files
 .AppleDouble
 .DS_Store
 .LSOverride
 
-# Node.js dependencies
+# Node.js Dependencies
 node_modules/
 
-# Python bytecode and virtual environments
+# Python Bytecode and Virtual Environments
 __pycache__/
 .venv/
 *.py[cod]
@@ -60,10 +61,14 @@ __pycache__/
 env/
 venv/
 
-# Windows
+# Temporary Files and Folders
+*~
+temp/
+tmp/
+
+# Windows System Files
 $RECYCLE.BIN/
 Desktop.ini
 Thumbs.db
 
-# Others
-**/tmp/**
+# Add project-specific ignores below

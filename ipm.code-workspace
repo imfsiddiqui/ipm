@@ -5,10 +5,105 @@
     }
   ],
   "settings": {
+    "black-formatter.args": ["--config", ".black.toml"],
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.rulers": [80],
+    "editor.tabSize": 4,
+    "files.defaultLanguage": "plaintext",
+    "files.encoding": "utf8",
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "flake8.args": ["--config", ".flake8"],
     "github.copilot.chat.commitMessageGeneration.instructions": [
       {
-        "file": ".github/copilot/commit-instructions.md"
+        "file": ".github/copilot/commit-message-instructions.md"
       }
-    ]
+    ],
+    "github.copilot.chat.pullRequestDescriptionGeneration.instructions": [
+      {
+        "file": ".github/copilot/pull-request-description-instructions.md"
+      }
+    ],
+    "isort.args": ["--settings-path", ".isort.cfg"],
+    "pylint.args": ["--rcfile", ".pylintrc.toml"],
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2
+    },
+    "[dockerfile]": {
+      "editor.defaultFormatter": "foxundermoon.shell-format",
+      "editor.tabSize": 2
+    },
+    "[gitignore]": {
+      "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "[github-actions-workflow]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2
+    },
+    "[go]": {
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+      },
+      "editor.defaultFormatter": "golang.go",
+      "editor.insertSpaces": false,
+      "editor.rulers": [80, 120]
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2
+    },
+    "[markdown]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2,
+      "editor.wordWrap": "on",
+      "files.trimTrailingWhitespace": false
+    },
+    "[powershell]": {
+      "editor.defaultFormatter": "ms-vscode.powershell",
+      "editor.rulers": [80, 120]
+    },
+    "[python]": {
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+      },
+      "editor.defaultFormatter": "ms-python.black-formatter",
+      "editor.rulers": [72, 79, 88]
+    },
+    "[shellscript]": {
+      "editor.defaultFormatter": "foxundermoon.shell-format",
+      "editor.tabSize": 2
+    },
+    "[svg]": {
+      "editor.defaultFormatter": "redhat.vscode-xml",
+      "editor.tabSize": 2
+    },
+    "[toml]": {
+      "editor.defaultFormatter": "tamasfe.even-better-toml",
+      "editor.tabSize": 2
+    },
+    "[xml]": {
+      "editor.defaultFormatter": "redhat.vscode-xml",
+      "editor.tabSize": 2
+    },
+    "[yaml]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2
+    }
   }
 }

@@ -1,7 +1,0 @@
-{
-  "github.copilot.chat.commitMessageGeneration.instructions": [
-    {
-      "file": ".github/copilot/commit-instructions.md"
-    }
-  ]
-}
