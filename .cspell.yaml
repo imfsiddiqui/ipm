@@ -15,6 +15,7 @@ language: en
 # the list of words to be always considered correct.
 words:
   - abstractproperty
+  - almalinux
   - altgraph
   - analyse
   - analysed
@@ -40,12 +41,15 @@ words:
   - dotenv
   - dotenvs
   - dshow
+  - eopkg
   - esbenp
   - faizan
   - fastapi
   - fflags
   - firstparty
   - foxundermoon
+  - gojsonschema
+  - guix
   - httptools
   - idna
   - imfsiddiqui
@@ -63,6 +67,7 @@ words:
   - localfolder
   - logformat
   - logkey
+  - macports
   - mediamtx
   - mjpeg
   - monitory
@@ -81,9 +86,11 @@ words:
   - ntvs
   - numpy
   - onefile
+  - opkg
   - optparse
   - otherstream
   - overgeneral
+  - pacman
   - pagecheckerboard
   - pagecolor
   - pageopacity
@@ -115,6 +122,8 @@ words:
   - showgrid
   - showpageshadow
   - siddiqui
+  - silkeh
+  - slackpkg
   - smpte
   - sniffio
   - snowballstemmer
@@ -128,11 +137,16 @@ words:
   - tcsh
   - thirdparty
   - timespan
+  - tmpl
   - toml
   - tomlkit
   - tspan
   - typealias
   - typevar
+  - unmarshal
+  - unmarshalled
+  - unmarshalling
+  - unmarshals
   - uvicorn
   - vcodec
   - venv
@@ -140,7 +154,10 @@ words:
   - webrtc
   - whep
   - wheps
+  - winget
+  - xbps
   - xdpi
+  - xeipuuv
   - xlink
   - ydpi
   - yuyv
