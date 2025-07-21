@@ -17,9 +17,9 @@ installation, updates, and removal of packages by standardizing commands.
 
 <div align="center">
   <img
-    src="docs/pages/assets/images/ipm-banner-standard.svg"
+    src="docs/pages/assets/images/banner-standard.svg"
     style="border-radius: 10px"
-    alt="ipm project banner"
+    alt="project banner"
   />
 </div>
 
