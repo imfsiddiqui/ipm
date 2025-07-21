@@ -1,5 +1,5 @@
 # Use the official Python image
-FROM python:latest
+FROM python:alpine
 
 # Copy the contents of the dist directory to the root directory of the container
 COPY dist/bin/ /ipm/

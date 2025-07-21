@@ -1,5 +1,5 @@
 # Use the official Node.js image
-FROM node:latest
+FROM node:alpine
 
 # Copy the contents of the dist directory to the root directory of the container
 COPY dist/bin/ /ipm/
