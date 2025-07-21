@@ -36,10 +36,13 @@ words:
   - contextmanager
   - ctypes
   - deskcolor
+  - dockerfile
+  - dockerfiles
   - docname
   - docstrings
   - dotenv
   - dotenvs
+  - dpkg
   - dshow
   - eopkg
   - esbenp
@@ -48,11 +51,14 @@ words:
   - fflags
   - firstparty
   - foxundermoon
+  - gojsonpointer
+  - gojsonreference
   - gojsonschema
   - guix
   - httptools
   - idna
   - imfsiddiqui
+  - inconshreveable
   - inkscape
   - inlinevar
   - ipm
