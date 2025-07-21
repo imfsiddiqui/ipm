@@ -4,7 +4,9 @@
 
 # 🤝 Contribution Guidelines
 
-Thank you for your interest in contributing! We welcome all kinds of contributions to this project whether it's reporting bugs, suggesting features, improving documentation, or submitting code.
+Thank you for your interest in contributing! We welcome all kinds of
+contributions to this project whether it's reporting bugs, suggesting features,
+improving documentation, or submitting code.
 
 ## 📚 Table of Contents
 
@@ -21,7 +23,8 @@ Thank you for your interest in contributing! We welcome all kinds of contributio
 
 ## 📜 Code of Conduct
 
-Please read our [Code of Conduct](CODE-OF-CONDUCT.md) to keep our community welcoming and inclusive.
+Please read our [Code of Conduct](CODE-OF-CONDUCT.md) to keep our community
+welcoming and inclusive.
 
 <p align="right"><a href="#top">☝️</a></p>
 
@@ -29,21 +32,26 @@ Please read our [Code of Conduct](CODE-OF-CONDUCT.md) to keep our community welc
 
 ### 🐛 Reporting Bugs
 
-- Search [issues](https://github.com/imfsiddiqui/ipm/issues) to check if the bug is already reported.
+- Search [issues](https://github.com/imfsiddiqui/ipm/issues) to check if the bug
+  is already reported.
 - Open a new issue with a clear title and detailed description.
 - Include steps to reproduce, expected behavior, and screenshots if possible.
 
 ### ✨ Suggesting Features
 
-- Search [issues](https://github.com/imfsiddiqui/ipm/issues) for similar feature requests.
-- Open a new issue describing your idea, its use case, and possible alternatives.
+- Search [issues](https://github.com/imfsiddiqui/ipm/issues) for similar feature
+  requests.
+- Open a new issue describing your idea, its use case, and possible
+  alternatives.
 
 ### 🛠️ Submitting Changes
 
 - **Fork** the repository.
 - **Clone** your fork: `git clone https://github.com/<your-username>/ipm.git`.
-- **Create a branch** for your change using following naming convention to help quickly identify the purpose of your changes.
-  - Branch name convention: `{type}/your-branch-name`, where `{type}` is one of the following:
+- **Create a branch** for your change using following naming convention to help
+  quickly identify the purpose of your changes.
+  - Branch name convention: `{type}/your-branch-name`, where `{type}` is one of
+    the following:
     - `build` - Changes that affect the build system or external dependencies
     - `chore` - Maintenance tasks not affecting main code
     - `ci` - Changes to CI configuration files and scripts
@@ -55,11 +63,18 @@ Please read our [Code of Conduct](CODE-OF-CONDUCT.md) to keep our community welc
     - `revert` - Reverting a previous commit
     - `style` - Code style, formatting, missing semicolons, etc.
     - `test` - Adding or updating tests
-  - The branch name after `{type}/` will be all in lowercase, words separated by dashes (`-`).  
+  - The branch name after `{type}/` will be all in lowercase, words separated by
+    dashes (`-`).
     - Example: `feat/add-login-endpoint`, `fix/typo-in-readme`
 - **Make your changes** and **add tests** if applicable.
-- **Commit** your changes following the [Conventional Commits](https://www.conventionalcommits.org/) format with emoji prefixes. See [Commit Message Instructions](/.github/copilot/commit-message-instructions.md) for details.
-- **Push** to your fork and **open a pull request** following the [Pull Request Description Instructions](/.github/copilot/pull-request-description-instructions.md) to ensure your PR is clear and complete.
+- **Commit** your changes following the
+  [Conventional Commits](https://www.conventionalcommits.org/) format with emoji
+  prefixes. See
+  [Commit Message Instructions](/.github/copilot/commit-message-instructions.md)
+  for details.
+- **Push** to your fork and **open a pull request** following the
+  [Pull Request Description Instructions](/.github/copilot/pull-request-description-instructions.md)
+  to ensure your PR is clear and complete.
 - **Ensure** your branch is up to date with `main` before submitting.
 - **Describe** your changes and reference any related issues.
 - **Respond** to feedback from maintainers (if any).
@@ -69,6 +84,7 @@ Please read our [Code of Conduct](CODE-OF-CONDUCT.md) to keep our community welc
 
 ## 📜 License
 
-By contributing, you agree that your contributions will be licensed under the [MIT License](https://github.com/imfsiddiqui/ipm/blob/main/LICENSE.md).
+By contributing, you agree that your contributions will be licensed under the
+[MIT License](https://github.com/imfsiddiqui/ipm/blob/main/LICENSE.md).
 
 <p align="right"><a href="#top">☝️</a></p>

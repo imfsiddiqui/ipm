@@ -18,12 +18,14 @@
 
 ## 🗂️ Supported Versions
 
-We release security updates for the latest version of this repository. Please ensure you are using the most recent version to receive security patches and updates.
+We release security updates for the latest version of this repository. Please
+ensure you are using the most recent version to receive security patches and
+updates.
 
 | **Version** | **Supported** |
 | :---------- | ------------: |
-| Latest      |             ✅ |
-| Older       |             ❌ |
+| Latest      |            ✅ |
+| Older       |            ❌ |
 
 <p align="right"><a href="#top">☝️</a></p>
 
@@ -32,21 +34,25 @@ We release security updates for the latest version of this repository. Please en
 If you discover a security vulnerability, please follow these steps:
 
 1. **Do not open public issues or pull requests for security vulnerabilities.**
-2. **Report privately** by emailing the maintainer at: [imfsiddiqui@yahoo.com](mailto:imfsiddiqui@yahoo.com).
+2. **Report privately** by emailing the maintainer at:
+   [imfsiddiqui@yahoo.com](mailto:imfsiddiqui@yahoo.com).
 3. Include as much detail as possible:
    - Description of the vulnerability
    - Steps to reproduce (if applicable)
    - Potential impact
    - Any suggested fixes
 
-We will respond as quickly as possible to acknowledge your report and begin investigating.
+We will respond as quickly as possible to acknowledge your report and begin
+investigating.
 
 <p align="right"><a href="#top">☝️</a></p>
 
 ## 📢 Disclosure Policy
 
-- We will investigate all legitimate reports and aim to fix vulnerabilities promptly.
-- Once a fix is available, we will publish a security release and update the [Changelog](CHANGELOG.md).
+- We will investigate all legitimate reports and aim to fix vulnerabilities
+  promptly.
+- Once a fix is available, we will publish a security release and update the
+  [Changelog](CHANGELOG.md).
 - Credit will be given to reporters if desired.
 
 <p align="right"><a href="#top">☝️</a></p>

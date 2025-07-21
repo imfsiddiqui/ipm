@@ -4,7 +4,10 @@
 
 # 📝 Todo
 
-This file is for day-to-day task tracking and immediate execution. It uses categories, priority, and state indicators to clearly outline ongoing and planned work. For high-level strategy, long-term goals, and vision, see [Roadmap](ROADMAP.md).
+This file is for day-to-day task tracking and immediate execution. It uses
+categories, priority, and state indicators to clearly outline ongoing and
+planned work. For high-level strategy, long-term goals, and vision, see
+[Roadmap](ROADMAP.md).
 
 ## 📚 Table of Contents
 
@@ -20,7 +23,8 @@ This file is for day-to-day task tracking and immediate execution. It uses categ
 
 ## 📝 List
 
-- [ ] 🏗️🟡⏳ Add a CI/CD pipeline to automate releases whenever a new version tag is created, including builds for all supported platforms.
+- [ ] 🏗️🟡⏳ Add a CI/CD pipeline to automate releases whenever a new version
+      tag is created, including builds for all supported platforms.
 
 ## 📗 Emoji Definition
 
@@ -28,32 +32,32 @@ This file is for day-to-day task tracking and immediate execution. It uses categ
 
 | **Emoji** |  **Meaning**  |
 | :-------: | :-----------: |
-|     🏗️     |     Build     |
-|     🔧     |     Chore     |
-|     👷     |      CI       |
-|     📝     | Documentation |
-|     ✨     |    Feature    |
-|     🐛     |      Fix      |
-|     🚀     |  Performance  |
-|     ♻️     |   Refactor    |
-|     ↩️     |    Revert     |
-|     🎨     |     Style     |
-|     🧪     |     Test      |
+|    🏗️     |     Build     |
+|    🔧     |     Chore     |
+|    👷     |      CI       |
+|    📝     | Documentation |
+|    ✨     |    Feature    |
+|    🐛     |      Fix      |
+|    🚀     |  Performance  |
+|    ♻️     |   Refactor    |
+|    ↩️     |    Revert     |
+|    🎨     |     Style     |
+|    🧪     |     Test      |
 
 ### 🔥 Task Priority
 
 | **Emoji** | **Meaning** |
 | :-------: | :---------: |
-|     🔴     |    High     |
-|     🟡     |   Medium    |
-|     🟢     |     Low     |
+|    🔴     |    High     |
+|    🟡     |   Medium    |
+|    🟢     |     Low     |
 
 ### 📅 Task Status
 
 | **Emoji** | **Meaning** |
 | :-------: | :---------: |
-|     ⏳     | Not started |
-|     🔄     | In progress |
-|     ✅     |    Done     |
+|    ⏳     | Not started |
+|    🔄     | In progress |
+|    ✅     |    Done     |
 
 <p align="right"><a href="#top">☝️</a></p>
