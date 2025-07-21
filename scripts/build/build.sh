@@ -34,7 +34,6 @@ invoke_binary_build() {
   fi
 
   # Build the binary using the Go compiler
-  go build -o "${OUTPUT_DIR}/${BINARY_NAME}" ${MAIN_PACKAGE}
   if ! go build -o "${OUTPUT_DIR}/${BINARY_NAME}" ${MAIN_PACKAGE}; then
     echo "Failed to build for ${GOOS}/${GOARCH}"
     exit 1
