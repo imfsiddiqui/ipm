@@ -1,7 +1,7 @@
 theme: jekyll-theme-cayman
-favicon_emoji: 📦
 repository_name: ipm
 title: ipm - Integrated Package Manager
+emoji: 📦
 description:
   A cross-platform tool that unifies CLI for various package managers,
   simplifies installation, updates, and removal of packages by standardizing
