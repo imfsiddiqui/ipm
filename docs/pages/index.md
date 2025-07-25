@@ -36,7 +36,8 @@ installation, updates, and removal of packages by standardizing commands.
 - [📦 ipm - Integrated Package Manager](#-ipm---integrated-package-manager)
   - [📚 Table of Contents](#-table-of-contents)
   - [📌 About](#-about)
-  - [✨ Key Features](#-key-features)
+  - [🧠 Philosophy](#-philosophy)
+  - [🔑 Key Features](#-key-features)
   - [📦 Supported Package Managers](#-supported-package-managers)
   - [🛠️ Installation](#️-installation)
     - [📦 Pre-built Binaries](#-pre-built-binaries)
@@ -80,9 +81,9 @@ installation, updates, and removal of packages by standardizing commands.
       - [💡 Example](#-example-1)
   - [⚙️ Configuration](#️-configuration)
     - [🪞 Example Configuration](#-example-configuration)
-  - [📄 Important Documents](#-important-documents)
   - [🙏 Acknowledgements](#-acknowledgements)
     - [🌟 Special Thanks](#-special-thanks)
+  - [📄 Important Documents](#-important-documents)
   - [📜 License](#-license)
 
 <p align="right"><a href="#top">☝️</a></p>
@@ -145,7 +146,16 @@ Use "ipm [command] --help" for more information about a command.
 
 <p align="right"><a href="#top">☝️</a></p>
 
-## ✨ Key Features
+## 🧠 Philosophy
+
+The philosophy behind `ipm` is to create a tool that enhances the developer
+experience by providing a unified and consistent interface for package
+management across different platforms by abstracting the complexities of
+individual package managers.
+
+<p align="right"><a href="#top">☝️</a></p>
+
+## 🔑 Key Features
 
 - **Cross-Platform Compatibility**: Supports multiple operating systems
   including Windows, Linux, and macOS.
@@ -448,30 +458,6 @@ directory.
 
 <p align="right"><a href="#top">☝️</a></p>
 
-## 📄 Important Documents
-
-- [Changelog](https://github.com/imfsiddiqui/ipm/blob/main/docs/CHANGELOG.md):
-  Changelog of all notable changes.
-- [Code of Conduct](https://github.com/imfsiddiqui/ipm/blob/main/docs/CODE-OF-CONDUCT.md):
-  Code of Conduct for contributors.
-- [Commit Message Instructions](https://github.com/imfsiddiqui/ipm/blob/main/.github/copilot/commit-message-instructions.md):
-  Commit message guidelines for contributors and Copilot.
-- [Contribution Guidelines](https://github.com/imfsiddiqui/ipm/blob/main/docs/CONTRIBUTING.md):
-  How to contribute to this project.
-- [License](https://github.com/imfsiddiqui/ipm/blob/main/LICENSE.md): License
-  text.
-- [Pull Request Description Instructions](https://github.com/imfsiddiqui/ipm/blob/main/.github/copilot/pull-request-description-instructions.md):
-  Pull request guidelines for contributors and Copilot.
-- [Roadmap](https://github.com/imfsiddiqui/ipm/blob/main/docs/ROADMAP.md):
-  High-level strategic plan, long-term goals, milestones, and overall project
-  vision.
-- [Security Policy](https://github.com/imfsiddiqui/ipm/blob/main/docs/SECURITY.md):
-  Security policy and reporting instructions.
-- [Todo](https://github.com/imfsiddiqui/ipm/blob/main/docs/TODO.md): Day-to-day
-  task tracking and immediate execution.
-
-<p align="right"><a href="#top">☝️</a></p>
-
 ## 🙏 Acknowledgements
 
 I would like to extend my heartfelt thanks to all the developers and
@@ -509,6 +495,30 @@ Your hard work and commitment to excellence have made it possible for me to
 build `ipm` and provide a unified package management experience for developers
 across different platforms. Thank you for your contributions to the open-source
 ecosystem.
+
+<p align="right"><a href="#top">☝️</a></p>
+
+## 📄 Important Documents
+
+- [Changelog](https://github.com/imfsiddiqui/ipm/blob/main/docs/CHANGELOG.md):
+  Changelog of all notable changes.
+- [Code of Conduct](https://github.com/imfsiddiqui/ipm/blob/main/docs/CODE-OF-CONDUCT.md):
+  Code of Conduct for contributors.
+- [Commit Message Instructions](https://github.com/imfsiddiqui/ipm/blob/main/.github/copilot/commit-message-instructions.md):
+  Commit message guidelines for contributors and Copilot.
+- [Contribution Guidelines](https://github.com/imfsiddiqui/ipm/blob/main/docs/CONTRIBUTING.md):
+  How to contribute to this project.
+- [License](https://github.com/imfsiddiqui/ipm/blob/main/LICENSE.md): License
+  text.
+- [Pull Request Description Instructions](https://github.com/imfsiddiqui/ipm/blob/main/.github/copilot/pull-request-description-instructions.md):
+  Pull request guidelines for contributors and Copilot.
+- [Roadmap](https://github.com/imfsiddiqui/ipm/blob/main/docs/ROADMAP.md):
+  High-level strategic plan, long-term goals, milestones, and overall project
+  vision.
+- [Security Policy](https://github.com/imfsiddiqui/ipm/blob/main/docs/SECURITY.md):
+  Security policy and reporting instructions.
+- [Todo](https://github.com/imfsiddiqui/ipm/blob/main/docs/TODO.md): Day-to-day
+  task tracking and immediate execution.
 
 <p align="right"><a href="#top">☝️</a></p>
 
