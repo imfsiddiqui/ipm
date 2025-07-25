@@ -142,8 +142,8 @@ Use "ipm [command] --help" for more information about a command.
 
 The philosophy behind `ipm` is to create a tool that enhances the developer
 experience by providing a unified and consistent interface for package
-management across different platforms by abstracting the complexities of
-individual package managers.
+management across different platforms. This is achieved by abstracting the
+complexities of individual package managers.
 
 <p align="right"><a href="#top">☝️</a></p>
 
