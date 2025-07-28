@@ -83,7 +83,7 @@
         "source.organizeImports": "explicit"
       },
       "editor.defaultFormatter": "ms-python.black-formatter",
-      "editor.rulers": [72, 79, 88]
+      "editor.rulers": [72, 88]
     },
     "[shellscript]": {
       "editor.defaultFormatter": "foxundermoon.shell-format",
