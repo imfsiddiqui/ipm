@@ -35,6 +35,7 @@ words:
   - borderopacity
   - brepo
   - centinum
+  - centinumrc
   - classmethod
   - colorama
   - contextlib
@@ -89,6 +90,7 @@ words:
   - logformat
   - logkey
   - macports
+  - mapfile
   - mediamtx
   - miterlimit
   - mjpeg
@@ -126,9 +128,11 @@ words:
   - pkgs
   - platformdirs
   - pmezard
+  - popd
   - pprof
   - preconfigured
   - probesize
+  - pushd
   - pycache
   - pycodestyle
   - pydantic
@@ -152,6 +156,7 @@ words:
   - russross
   - segoe
   - setuptools
+  - shellcheck
   - showgrid
   - showpageshadow
   - siddiqui
